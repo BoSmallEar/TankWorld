@@ -1,0 +1,33 @@
+@W:"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v":130:7:130:18|Net BUS_WRITE_EN is not declared.
+@W:"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v":131:7:131:17|Net BUS_READ_EN is not declared.
+@W:"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v":154:7:154:18|Net BUS_WRITE_EN is not declared.
+@W:"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v":155:7:155:17|Net BUS_READ_EN is not declared.
+@W: CG775 :"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
+@W: CG360 :"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v":16:12:16:19|Input port bits 7 to 4 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v":16:12:16:19|Input port bits 1 to 0 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v":45:0:45:5|Pruning register bits 31 to 20 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v":29:17:29:21|Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v":29:17:29:21|Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v":45:0:45:5|Pruning register bits 31 to 20 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v":29:17:29:21|Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v":29:17:29:21|Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL279 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v":45:0:45:5|Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v":29:17:29:21|Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v":29:17:29:21|Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v":45:0:45:5|Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v":29:17:29:21|Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v":29:17:29:21|Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v":29:17:29:21|Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v":29:17:29:21|Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v":30:22:30:27|Input port bits 31 to 5 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL260 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v":46:0:46:5|Pruning register bit 11 of count[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v":29:17:29:21|Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v":29:17:29:21|Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v":30:22:30:27|Input port bits 31 to 1 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v":14:12:14:19|Input port bits 7 to 4 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v":14:12:14:19|Input port bits 1 to 0 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.
+

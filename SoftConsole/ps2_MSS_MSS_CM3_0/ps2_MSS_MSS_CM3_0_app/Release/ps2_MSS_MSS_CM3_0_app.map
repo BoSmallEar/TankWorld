@@ -1,0 +1,1190 @@
+Archive member included because of file (symbol)
+
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                              ./main.o (g_mss_uart1)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                              ./main.o (MSS_SPI_configure_master_mode)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                              ./main.o (MSS_GPIO_init)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                              ./main.o (ACE_get_ppe_sample)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                              C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o (SystemInit)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o) (g_ace_channel_desc_table)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o) (ace_init_convert)
+C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o) (ace_init_flags)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o) (memset)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+                              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o) (strncmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+adc_handler_2       0x1               ./main.o
+g_mss_spi1          0x84              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+adc_data_3          0x2               ./main.o
+adc_data_5          0x2               ./main.o
+reload              0x4               ./main.o
+message             0x1               ./main.o
+v_angle             0x4               ./main.o
+i                   0x2               ./main.o
+adc_buffer2         0x7d0             ./main.o
+g_mss_uart1         0x28              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+adc_handler_3       0x1               ./main.o
+adc_data_4          0x2               ./main.o
+g_mss_uart0         0x28              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+adc_handler_4       0x1               ./main.o
+adc_handler_5       0x1               ./main.o
+adc_buffer4         0x7d0             ./main.o
+adc_buffer5         0x7d0             ./main.o
+adc_data_2          0x2               ./main.o
+g_mss_spi0          0x84              C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+adc_wait            0x2               ./main.o
+h_angle             0x4               ./main.o
+adc_buffer3         0x7d0             ./main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text.reverseBit
+                0x00000000       0x68 ./main.o
+ .rodata.servo_v_max_depression
+                0x00000000        0x4 ./main.o
+ .bss.adc_sum3  0x00000000        0x4 ./main.o
+ .bss.adc_sum4  0x00000000        0x4 ./main.o
+ .rodata.servo_v_max_elevation
+                0x00000000        0x4 ./main.o
+ .rodata.servo_h_max_elevation
+                0x00000000        0x4 ./main.o
+ .bss.adc_sum5  0x00000000        0x4 ./main.o
+ .rodata.servo_h_initial
+                0x00000000        0x4 ./main.o
+ .rodata.servo_h_max_depression
+                0x00000000        0x4 ./main.o
+ .rodata.servo_v_initial
+                0x00000000        0x4 ./main.o
+ .text          0x00000000        0x0 ./my_timer.o
+ .data          0x00000000        0x0 ./my_timer.o
+ .bss           0x00000000        0x0 ./my_timer.o
+ .text.MYTIMER_getCounterVal
+                0x00000000        0xc ./my_timer.o
+ .text          0x00000000        0x0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .data          0x00000000        0x0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .bss           0x00000000        0x0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .text          0x00000000        0x0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._close   0x00000000        0x8 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._exit    0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fstat   0x00000000        0xc C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._isatty  0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._lseek   0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000        0x8 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._read    0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._write_r
+                0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._sbrk    0x00000000       0x2c C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000        0xc C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000        0x8 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x10 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x10 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x10 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x10 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x10 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x10 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.heap_end.2220
+                0x00000000        0x4 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_polled_tx
+                0x00000000       0xac C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_irq_tx
+                0x00000000       0x74 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_tx_complete
+                0x00000000       0x38 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_enable_irq
+                0x00000000       0x54 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_disable_irq
+                0x00000000       0x58 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rx_handler
+                0x00000000       0x6c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_loopback
+                0x00000000       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_rxstatus_handler
+                0x00000000       0x50 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_tx_handler
+                0x00000000       0x58 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_set_modemstatus_handler
+                0x00000000       0x50 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_fill_tx_fifo
+                0x00000000       0x8c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_rx_status
+                0x00000000       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_modem_status
+                0x00000000       0x24 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.MSS_UART_get_tx_status
+                0x00000000       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_configure_slave_mode
+                0x00000000       0x80 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_transfer_block
+                0x00000000      0x110 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_frame_rx_handler
+                0x00000000       0x90 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_slave_tx_frame
+                0x00000000       0x84 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_slave_block_buffers
+                0x00000000      0x170 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_enable
+                0x00000000       0x34 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_disable
+                0x00000000       0x34 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_transfer_byte_count
+                0x00000000       0x58 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_tx_done
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_cmd_response
+                0x00000000       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_set_cmd_handler
+                0x00000000       0x8c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_drive_inout
+                0x00000000       0x84 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_disable_irq
+                0x00000000       0x1c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_start_adc
+                0x00000000       0x10 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_adc_result
+                0x00000000       0x24 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_configure_sdd
+                0x00000000       0xd0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_sdd
+                0x00000000       0x1c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_sdd
+                0x00000000       0x1c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_sdd_value
+                0x00000000       0x24 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_sdd_value_sync
+                0x00000000       0x6c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_comp_reference
+                0x00000000       0x94 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_set_comp_hysteresis
+                0x00000000       0x8c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_comp
+                0x00000000       0x6c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_comp
+                0x00000000       0x6c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_comp_rise_irq
+                0x00000000       0x18 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_comp_rise_irq
+                0x00000000       0x28 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_clear_comp_rise_irq
+                0x00000000       0x28 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_enable_comp_fall_irq
+                0x00000000       0x18 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_disable_comp_fall_irq
+                0x00000000       0x28 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_clear_comp_fall_irq
+                0x00000000       0x24 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_comp_status
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_channel_count
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_first_channel
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_next_channel
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text.ACE_get_input_channel_handle
+                0x00000000       0x38 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.comp_id_2_scb_lut
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.adc_status_reg_lut
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_byte2_reg_lut
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_enable_masks_lut
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_byte01_reg_lut
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.C.16.3496
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .rodata.dac_ctrl_reg_lut
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_1_name
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_current_resistors
+                0x00000000        0x8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_ppe_transforms_desc_table
+                0x00000000       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_external_varef_used
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_0_name
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_0_sequence
+                0x00000000       0x2c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .data.g_sse_sequences_desc_table
+                0x00000000       0x28 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .data.g_ace_adc_config
+                0x00000000        0x8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .rodata.g_ace_sse_proc_1_sequence
+                0x00000000       0x2c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_get_channel_type
+                0x00000000       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_adc_input_to_mV
+                0x00000000       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_mV
+                0x00000000       0xa8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_mA
+                0x00000000       0x54 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_uA
+                0x00000000       0x58 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_Kelvin
+                0x00000000       0x1c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_Celsius
+                0x00000000       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_to_Fahrenheit
+                0x00000000       0x24 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_get_channel_name
+                0x00000000       0x18 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_mV_to_adc_value
+                0x00000000       0x40 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_mV
+                0x00000000       0xa0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_mA
+                0x00000000       0x80 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_uA
+                0x00000000       0x80 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_Kelvin
+                0x00000000       0x54 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_Celsius
+                0x00000000       0x48 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_convert_from_Fahrenheit
+                0x00000000       0x2c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text.ACE_translate_pdma_value
+                0x00000000        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.apbs_gain_lut
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.abps_idx_lut
+                0x00000000       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.abps_channel_lut
+                0x00000000       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.apbs_range
+                0x00000000        0x8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .text          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .data          0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .bss           0x00000000        0x0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_is_hysteresis_flag
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_is_under_flag
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_threshold
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_assertion
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_deassertion
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_flag_hysteresis
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_set_channel_hysteresis
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_handle
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_status
+                0x00000000        0x8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_name
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_flag_channel
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_channel_flag_count
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_channel_first_flag
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_get_channel_next_flag
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_enable_channel_flags_irq
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_disable_channel_flags_irq
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_clear_channel_flags_irq
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_enable_flag_irq
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_disable_flag_irq
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_clear_flag_irq
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_register_flag_isr
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_register_channel_flags_isr
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text.ACE_register_global_flags_isr
+                0x00000000        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .text          0x00000000        0xc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000       0xf4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x60000000         0x00040000         xr
+romMirror        0x00000000         0x00040000         xr
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD ./my_timer.o
+LOAD C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o
+LOAD C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+LOAD C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a
+START GROUP
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+END GROUP
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00002000                MAIN_STACK_SIZE = 0x2000
+                0x00001000                PROCESS_STACK_SIZE = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x2000e000                PROVIDE (__process_stack_start, (__main_stack_start - MAIN_STACK_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000001                PROVIDE (__mirrored_nvm, 0x1)
+
+.init           0x00000000      0x470 load address 0x60000000
+                0x00000000                __vector_table_vma_base_address = .
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x470 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o
+                0x00000000                g_pfnVectors
+                0x00000298                Reset_Handler
+                0x00000308                NMI_Handler
+                0x0000030a                HardFault_Handler
+                0x0000030c                MemManage_Handler
+                0x0000030e                BusFault_Handler
+                0x00000310                UsageFault_Handler
+                0x00000312                SVC_Handler
+                0x00000314                DebugMon_Handler
+                0x00000316                PendSV_Handler
+                0x00000318                SysTick_Handler
+                0x0000031a                WdogWakeup_IRQHandler
+                0x0000031c                BrownOut_1_5V_IRQHandler
+                0x0000031e                BrownOut_3_3V_IRQHandler
+                0x00000320                RTC_Match_IRQHandler
+                0x00000322                RTCIF_Pub_IRQHandler
+                0x00000324                EthernetMAC_IRQHandler
+                0x00000326                IAP_IRQHandler
+                0x00000328                ENVM0_IRQHandler
+                0x0000032a                ENVM1_IRQHandler
+                0x0000032c                DMA_IRQHandler
+                0x00000336                I2C0_IRQHandler
+                0x00000338                I2C0_SMBAlert_IRQHandler
+                0x0000033a                I2C0_SMBus_IRQHandler
+                0x0000033c                I2C1_IRQHandler
+                0x0000033e                I2C1_SMBAlert_IRQHandler
+                0x00000340                I2C1_SMBus_IRQHandler
+                0x00000342                Timer1_IRQHandler
+                0x00000344                Timer2_IRQHandler
+                0x00000346                PLL_Lock_IRQHandler
+                0x00000348                PLL_LockLost_IRQHandler
+                0x0000034a                CommError_IRQHandler
+                0x0000034c                Fabric_IRQHandler
+                0x0000034e                GPIO0_IRQHandler
+                0x00000350                GPIO1_IRQHandler
+                0x00000352                GPIO2_IRQHandler
+                0x00000354                GPIO3_IRQHandler
+                0x00000356                GPIO4_IRQHandler
+                0x0000035a                GPIO6_IRQHandler
+                0x0000035c                GPIO7_IRQHandler
+                0x00000360                GPIO9_IRQHandler
+                0x00000362                GPIO10_IRQHandler
+                0x00000364                GPIO11_IRQHandler
+                0x00000366                GPIO12_IRQHandler
+                0x00000368                GPIO13_IRQHandler
+                0x0000036a                GPIO14_IRQHandler
+                0x0000036c                GPIO15_IRQHandler
+                0x0000036e                GPIO16_IRQHandler
+                0x00000370                GPIO17_IRQHandler
+                0x00000372                GPIO18_IRQHandler
+                0x00000374                GPIO19_IRQHandler
+                0x00000376                GPIO20_IRQHandler
+                0x00000378                GPIO21_IRQHandler
+                0x0000037a                GPIO22_IRQHandler
+                0x0000037c                GPIO23_IRQHandler
+                0x0000037e                GPIO24_IRQHandler
+                0x00000380                GPIO25_IRQHandler
+                0x00000382                GPIO26_IRQHandler
+                0x00000384                GPIO27_IRQHandler
+                0x00000386                GPIO28_IRQHandler
+                0x00000388                GPIO29_IRQHandler
+                0x0000038a                GPIO30_IRQHandler
+                0x0000038c                GPIO31_IRQHandler
+                0x0000038e                ACE_PC0_Flag0_IRQHandler
+                0x00000390                ACE_PC0_Flag1_IRQHandler
+                0x00000392                ACE_PC0_Flag2_IRQHandler
+                0x00000394                ACE_PC0_Flag3_IRQHandler
+                0x00000396                ACE_PC1_Flag0_IRQHandler
+                0x00000398                ACE_PC1_Flag1_IRQHandler
+                0x0000039a                ACE_PC1_Flag2_IRQHandler
+                0x0000039c                ACE_PC1_Flag3_IRQHandler
+                0x0000039e                ACE_PC2_Flag0_IRQHandler
+                0x000003a0                ACE_PC2_Flag1_IRQHandler
+                0x000003a2                ACE_PC2_Flag2_IRQHandler
+                0x000003a4                ACE_PC2_Flag3_IRQHandler
+                0x000003a6                ACE_ADC0_DataValid_IRQHandler
+                0x000003a8                ACE_ADC1_DataValid_IRQHandler
+                0x000003aa                ACE_ADC2_DataValid_IRQHandler
+                0x000003ac                ACE_ADC0_CalDone_IRQHandler
+                0x000003ae                ACE_ADC1_CalDone_IRQHandler
+                0x000003b0                ACE_ADC2_CalDone_IRQHandler
+                0x000003b2                ACE_ADC0_CalStart_IRQHandler
+                0x000003b4                ACE_ADC1_CalStart_IRQHandler
+                0x000003b6                ACE_ADC2_CalStart_IRQHandler
+                0x000003b8                ACE_Comp0_Fall_IRQHandler
+                0x000003ba                ACE_Comp1_Fall_IRQHandler
+                0x000003bc                ACE_Comp2_Fall_IRQHandler
+                0x000003be                ACE_Comp3_Fall_IRQHandler
+                0x000003c0                ACE_Comp4_Fall_IRQHandler
+                0x000003c2                ACE_Comp5_Fall_IRQHandler
+                0x000003c4                ACE_Comp6_Fall_IRQHandler
+                0x000003c6                ACE_Comp7_Fall_IRQHandler
+                0x000003c8                ACE_Comp8_Fall_IRQHandler
+                0x000003ca                ACE_Comp9_Fall_IRQHandler
+                0x000003cc                ACE_Comp10_Fall_IRQHandler
+                0x000003ce                ACE_Comp11_Fall_IRQHandler
+                0x000003d0                ACE_Comp0_Rise_IRQHandler
+                0x000003d2                ACE_Comp1_Rise_IRQHandler
+                0x000003d4                ACE_Comp2_Rise_IRQHandler
+                0x000003d6                ACE_Comp3_Rise_IRQHandler
+                0x000003d8                ACE_Comp4_Rise_IRQHandler
+                0x000003da                ACE_Comp5_Rise_IRQHandler
+                0x000003dc                ACE_Comp6_Rise_IRQHandler
+                0x000003de                ACE_Comp7_Rise_IRQHandler
+                0x000003e0                ACE_Comp8_Rise_IRQHandler
+                0x000003e2                ACE_Comp9_Rise_IRQHandler
+                0x000003e4                ACE_Comp10_Rise_IRQHandler
+                0x000003e6                ACE_Comp11_Rise_IRQHandler
+                0x000003e8                ACE_ADC0_FifoFull_IRQHandler
+                0x000003ea                ACE_ADC0_FifoAFull_IRQHandler
+                0x000003ec                ACE_ADC0_FifoEmpty_IRQHandler
+                0x000003ee                ACE_ADC1_FifoFull_IRQHandler
+                0x000003f0                ACE_ADC1_FifoAFull_IRQHandler
+                0x000003f2                ACE_ADC1_FifoEmpty_IRQHandler
+                0x000003f4                ACE_ADC2_FifoFull_IRQHandler
+                0x000003f6                ACE_ADC2_FifoAFull_IRQHandler
+                0x000003f8                ACE_ADC2_FifoEmpty_IRQHandler
+                0x00000470                . = ALIGN (0x4)
+
+.text           0x00000470     0x2230 load address 0x60000470
+ CREATE_OBJECT_SYMBOLS
+                0x60000470                __text_load = LOADADDR (.text)
+                0x00000470                __text_start = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000470       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text.setServoPin
+                0x000004a0      0x14c ./main.o
+                0x000004a0                setServoPin
+ .text.GPIO8_IRQHandler
+                0x000005ec       0x14 ./main.o
+                0x000005ec                GPIO8_IRQHandler
+ .text.GPIO5_IRQHandler
+                0x00000600       0x2c ./main.o
+                0x00000600                GPIO5_IRQHandler
+ .text.setMotorPin
+                0x0000062c       0x48 ./main.o
+                0x0000062c                setMotorPin
+ .text.delay    0x00000674       0x34 ./main.o
+                0x00000674                delay
+ .text.main     0x000006a8      0x804 ./main.o
+                0x000006a8                main
+ .text.MYTIMER_init
+                0x00000eac        0x4 ./my_timer.o
+                0x00000eac                MYTIMER_init
+ .text.MYTIMER_enable
+                0x00000eb0       0x14 ./my_timer.o
+                0x00000eb0                MYTIMER_enable
+ .text.MYTIMER_disable
+                0x00000ec4       0x14 ./my_timer.o
+                0x00000ec4                MYTIMER_disable
+ .text.MYTIMER_setOverflowVal
+                0x00000ed8        0xc ./my_timer.o
+                0x00000ed8                MYTIMER_setOverflowVal
+ .text.DELAY_init
+                0x00000ee4        0x4 ./my_timer.o
+                0x00000ee4                DELAY_init
+ .text.DELAY_enable
+                0x00000ee8       0x14 ./my_timer.o
+                0x00000ee8                DELAY_enable
+ .text.DELAY_disable
+                0x00000efc       0x14 ./my_timer.o
+                0x00000efc                DELAY_disable
+ .text.DELAY_setOverflowVal
+                0x00000f10        0xc ./my_timer.o
+                0x00000f10                DELAY_setOverflowVal
+ .text.DELAY_getCounterVal
+                0x00000f1c        0xc ./my_timer.o
+                0x00000f1c                DELAY_getCounterVal
+ .text.MSS_UART_polled_tx_string
+                0x00000f28       0x7c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000f28                MSS_UART_polled_tx_string
+ .text.MSS_UART_get_rx
+                0x00000fa4       0x74 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000fa4                MSS_UART_get_rx
+ .text.MSS_UART_isr
+                0x00001018       0x88 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.default_tx_handler
+                0x000010a0       0xb0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text.UART0_IRQHandler
+                0x00001150       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00001150                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x00001180       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00001180                UART1_IRQHandler
+ .text.MSS_UART_init
+                0x000011b0      0x108 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x000011b0                MSS_UART_init
+ .text.recover_from_rx_overflow
+                0x000012b8       0xcc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.MSS_SPI_configure_master_mode
+                0x00001384       0xd4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x00001384                MSS_SPI_configure_master_mode
+ .text.MSS_SPI_set_slave_select
+                0x00001458       0x84 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x00001458                MSS_SPI_set_slave_select
+ .text.MSS_SPI_clear_slave_select
+                0x000014dc       0x68 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x000014dc                MSS_SPI_clear_slave_select
+ .text.MSS_SPI_transfer_frame
+                0x00001544       0x50 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x00001544                MSS_SPI_transfer_frame
+ .text.fill_slave_tx_fifo
+                0x00001594       0xac C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.read_slave_rx_fifo
+                0x00001640       0x78 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.mss_spi_isr
+                0x000016b8      0x194 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .text.SPI0_IRQHandler
+                0x0000184c       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x0000184c                SPI0_IRQHandler
+ .text.SPI1_IRQHandler
+                0x0000187c       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x0000187c                SPI1_IRQHandler
+ .text.MSS_SPI_init
+                0x000018ac       0xbc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x000018ac                MSS_SPI_init
+ .text.MSS_GPIO_init
+                0x00001968       0x70 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x00001968                MSS_GPIO_init
+ .text.MSS_GPIO_config
+                0x000019d8       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x000019d8                MSS_GPIO_config
+ .text.MSS_GPIO_set_output
+                0x000019ec       0x18 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x000019ec                MSS_GPIO_set_output
+ .text.MSS_GPIO_enable_irq
+                0x00001a04       0x44 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x00001a04                MSS_GPIO_enable_irq
+ .text.MSS_GPIO_clear_irq
+                0x00001a48       0x44 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                0x00001a48                MSS_GPIO_clear_irq
+ .text.ACE_get_ppe_sample
+                0x00001a8c       0x2c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                0x00001a8c                ACE_get_ppe_sample
+ .text.ACE_get_channel_handle
+                0x00001ab8       0x58 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                0x00001ab8                ACE_get_channel_handle
+ .text.ACE_init
+                0x00001b10       0x10 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                0x00001b10                ACE_init
+ .text.SystemInit
+                0x00001b20        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00001b20                SystemInit
+ .text.SystemCoreClockUpdate
+                0x00001b24      0x14c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00001b24                SystemCoreClockUpdate
+ .text.ace_init_convert
+                0x00001c70      0x238 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                0x00001c70                ace_init_convert
+ .text.ace_init_flags
+                0x00001ea8        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001ea8                ace_init_flags
+ .text.ACE_PPE_Flag0_IRQHandler
+                0x00001eac       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001eac                ACE_PPE_Flag0_IRQHandler
+ .text.ACE_PPE_Flag1_IRQHandler
+                0x00001ecc       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001ecc                ACE_PPE_Flag1_IRQHandler
+ .text.ACE_PPE_Flag2_IRQHandler
+                0x00001eec       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001eec                ACE_PPE_Flag2_IRQHandler
+ .text.ACE_PPE_Flag3_IRQHandler
+                0x00001f0c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001f0c                ACE_PPE_Flag3_IRQHandler
+ .text.ACE_PPE_Flag4_IRQHandler
+                0x00001f2c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001f2c                ACE_PPE_Flag4_IRQHandler
+ .text.ACE_PPE_Flag5_IRQHandler
+                0x00001f4c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001f4c                ACE_PPE_Flag5_IRQHandler
+ .text.ACE_PPE_Flag6_IRQHandler
+                0x00001f6c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001f6c                ACE_PPE_Flag6_IRQHandler
+ .text.ACE_PPE_Flag7_IRQHandler
+                0x00001f8c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001f8c                ACE_PPE_Flag7_IRQHandler
+ .text.ACE_PPE_Flag8_IRQHandler
+                0x00001fac       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001fac                ACE_PPE_Flag8_IRQHandler
+ .text.ACE_PPE_Flag9_IRQHandler
+                0x00001fcc       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001fcc                ACE_PPE_Flag9_IRQHandler
+ .text.ACE_PPE_Flag10_IRQHandler
+                0x00001fec       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x00001fec                ACE_PPE_Flag10_IRQHandler
+ .text.ACE_PPE_Flag11_IRQHandler
+                0x0000200c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000200c                ACE_PPE_Flag11_IRQHandler
+ .text.ACE_PPE_Flag12_IRQHandler
+                0x0000202c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000202c                ACE_PPE_Flag12_IRQHandler
+ .text.ACE_PPE_Flag13_IRQHandler
+                0x0000204c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000204c                ACE_PPE_Flag13_IRQHandler
+ .text.ACE_PPE_Flag14_IRQHandler
+                0x0000206c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000206c                ACE_PPE_Flag14_IRQHandler
+ .text.ACE_PPE_Flag15_IRQHandler
+                0x0000208c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000208c                ACE_PPE_Flag15_IRQHandler
+ .text.ACE_PPE_Flag16_IRQHandler
+                0x000020ac       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x000020ac                ACE_PPE_Flag16_IRQHandler
+ .text.ACE_PPE_Flag17_IRQHandler
+                0x000020cc       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x000020cc                ACE_PPE_Flag17_IRQHandler
+ .text.ACE_PPE_Flag18_IRQHandler
+                0x000020ec       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x000020ec                ACE_PPE_Flag18_IRQHandler
+ .text.ACE_PPE_Flag19_IRQHandler
+                0x0000210c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000210c                ACE_PPE_Flag19_IRQHandler
+ .text.ACE_PPE_Flag20_IRQHandler
+                0x0000212c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000212c                ACE_PPE_Flag20_IRQHandler
+ .text.ACE_PPE_Flag21_IRQHandler
+                0x0000214c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000214c                ACE_PPE_Flag21_IRQHandler
+ .text.ACE_PPE_Flag22_IRQHandler
+                0x0000216c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000216c                ACE_PPE_Flag22_IRQHandler
+ .text.ACE_PPE_Flag23_IRQHandler
+                0x0000218c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000218c                ACE_PPE_Flag23_IRQHandler
+ .text.ACE_PPE_Flag24_IRQHandler
+                0x000021ac       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x000021ac                ACE_PPE_Flag24_IRQHandler
+ .text.ACE_PPE_Flag25_IRQHandler
+                0x000021cc       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x000021cc                ACE_PPE_Flag25_IRQHandler
+ .text.ACE_PPE_Flag26_IRQHandler
+                0x000021ec       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x000021ec                ACE_PPE_Flag26_IRQHandler
+ .text.ACE_PPE_Flag27_IRQHandler
+                0x0000220c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000220c                ACE_PPE_Flag27_IRQHandler
+ .text.ACE_PPE_Flag28_IRQHandler
+                0x0000222c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000222c                ACE_PPE_Flag28_IRQHandler
+ .text.ACE_PPE_Flag29_IRQHandler
+                0x0000224c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000224c                ACE_PPE_Flag29_IRQHandler
+ .text.ACE_PPE_Flag30_IRQHandler
+                0x0000226c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000226c                ACE_PPE_Flag30_IRQHandler
+ .text.ACE_PPE_Flag31_IRQHandler
+                0x0000228c       0x20 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                0x0000228c                ACE_PPE_Flag31_IRQHandler
+ .text          0x000022ac       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x000022ac                __libc_init_array
+ .text          0x000022fc       0xd4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x000022fc                memset
+ .text          0x000023d0       0xa8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+                0x000023d0                strncmp
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x00002478                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.C.37.4212
+                0x00002478       0x24 ./main.o
+ .rodata.C.36.4211
+                0x0000249c       0x14 ./main.o
+ .rodata.str1.4
+                0x000024b0       0x50 ./main.o
+ .rodata.g_gpio_irqn_lut
+                0x00002500       0x40 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .rodata.g_config_reg_lut
+                0x00002540       0x80 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .rodata.C.16.2565
+                0x000025c0       0x10 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .rodata.g_ace_channel_2_name
+                0x000025d0       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x000025d0                g_ace_channel_2_name
+ .rodata.g_ace_channel_1_name
+                0x000025e4       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x000025e4                g_ace_channel_1_name
+ .rodata.g_ace_channel_0_name
+                0x000025f8       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x000025f8                g_ace_channel_0_name
+ .rodata.g_ace_channel_3_name
+                0x0000260c       0x14 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x0000260c                g_ace_channel_3_name
+ .rodata.channel_quad_lut
+                0x00002620       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .rodata.channel_type_lut
+                0x00002650       0x30 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.init)
+ .init          0x00002680        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x00002680                _init
+ .init          0x00002684        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x0000268c        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x0000268c                _fini
+ .fini          0x00002690        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x00002698                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00002698                PROVIDE (__preinit_array_end, .)
+                0x00002698                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00002698        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x0000269c                PROVIDE (__init_array_end, .)
+                0x0000269c                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x0000269c        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x000026a0                PROVIDE (__fini_array_end, .)
+                0x000026a0                __exidx_start = .
+
+.v4_bx          0x000026a0        0x0 load address 0x600026a0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000026a0                __exidx_end = .
+                0x000026a0                _etext = .
+
+.data           0x20000000       0x74 load address 0x600026a0
+                0x600026a0                __data_load = LOADADDR (.data)
+                0x600026a0                _sidata = LOADADDR (.data)
+                0x20000000                __data_start = .
+                0x20000000                _sdata = .
+ *(.jcr)
+ .jcr           0x20000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20000000        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.pwm_h_addr
+                0x20000004        0x4 ./main.o
+                0x20000004                pwm_h_addr
+ .data.fire_addr
+                0x20000008        0x4 ./main.o
+                0x20000008                fire_addr
+ .data.motor_left_addr
+                0x2000000c        0x4 ./main.o
+                0x2000000c                motor_left_addr
+ .data.motor_right_addr
+                0x20000010        0x4 ./main.o
+                0x20000010                motor_right_addr
+ .data.led_rg_addr
+                0x20000014        0x4 ./main.o
+                0x20000014                led_rg_addr
+ .data.pwm_v_addr
+                0x20000018        0x4 ./main.o
+                0x20000018                pwm_v_addr
+ .data.g_FrequencyACE
+                0x2000001c        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x2000001c                g_FrequencyACE
+ .data.g_FrequencyFPGA
+                0x20000020        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000020                g_FrequencyFPGA
+ .data.g_FrequencyPCLK0
+                0x20000024        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000024                g_FrequencyPCLK0
+ .data.g_FrequencyPCLK1
+                0x20000028        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000028                g_FrequencyPCLK1
+ .data.SystemCoreClock
+                0x2000002c        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x2000002c                SystemCoreClock
+ .data.SystemFrequency
+                0x20000030        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000030                SystemFrequency
+ .data.g_ace_channel_desc_table
+                0x20000034       0x40 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                0x20000034                g_ace_channel_desc_table
+                0x20000074                . = ALIGN (0x4)
+                0x20000074                _edata = .
+
+.bss            0x20000074     0x20dc load address 0x60002714
+                0x20000074                __bss_start__ = .
+                0x20000074                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000074        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *fill*         0x20000075        0x3 00
+ .bss.adc_sum2  0x20000078        0x4 ./main.o
+                0x20000078                adc_sum2
+ .bss.g_gdec_lut
+                0x2000007c        0xc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .bss.channel_type_lut_h
+                0x20000088        0x4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ *(COMMON)
+ COMMON         0x2000008c     0x1f68 ./main.o
+                0x2000008c                adc_handler_2
+                0x2000008e                adc_data_3
+                0x20000090                adc_data_5
+                0x20000094                reload
+                0x20000098                message
+                0x2000009c                v_angle
+                0x200000a0                i
+                0x200000a4                adc_buffer2
+                0x20000874                adc_handler_3
+                0x20000876                adc_data_4
+                0x20000878                adc_handler_4
+                0x20000879                adc_handler_5
+                0x2000087c                adc_buffer4
+                0x2000104c                adc_buffer5
+                0x2000181c                adc_data_2
+                0x2000181e                adc_wait
+                0x20001820                h_angle
+                0x20001824                adc_buffer3
+ COMMON         0x20001ff4       0x50 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20001ff4                g_mss_uart1
+                0x2000201c                g_mss_uart0
+ COMMON         0x20002044      0x108 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                0x20002044                g_mss_spi1
+                0x200020c8                g_mss_spi0
+                0x20002150                . = ALIGN (0x8)
+ *fill*         0x2000214c        0x4 00
+                0x20002150                __bss_end__ = .
+                0x20002150                _end = .
+                0x20002150                __end = _end
+                0x20002150                _ebss = .
+                0x20002150                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000      0x1d9
+ .comment       0x00000000       0x2b ./main.o
+ .comment       0x0000002b       0x2b ./my_timer.o
+ .comment       0x00000056       0x2b C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000081       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .comment       0x000000ac       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .comment       0x000000d7       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .comment       0x00000102       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .comment       0x0000012d       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .comment       0x00000158       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .comment       0x00000183       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .comment       0x000001ae       0x2b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_aranges  0x00000000      0x608
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_aranges
+                0x000000a8       0xc0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_aranges
+                0x00000168       0xc8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_aranges
+                0x00000230       0x50 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_aranges
+                0x00000280       0xe0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_aranges
+                0x00000360       0x28 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_aranges
+                0x00000388       0xa8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_aranges
+                0x00000430      0x1d8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_pubnames
+                0x00000000     0x12f8
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xeb C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_pubnames
+                0x000000eb      0x21c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_pubnames
+                0x00000307      0x21a C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_pubnames
+                0x00000521       0xb1 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_pubnames
+                0x000005d2      0x292 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_pubnames
+                0x00000864       0xb4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_pubnames
+                0x00000918      0x195 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .debug_pubnames
+                0x00000aad      0x1ec C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_pubnames
+                0x00000c99      0x65f C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_info     0x00000000     0x979a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x6d5 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x000006d5     0x172a C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x00001dff     0x1706 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_info    0x00003505     0x111e C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_info    0x00004623     0x1acf C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_info    0x000060f2      0x563 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_info    0x00006655      0x4c1 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .debug_info    0x00006b16     0x1ad4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_info    0x000085ea     0x11b0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_abbrev   0x00000000     0x1235
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1d5 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x000001d5      0x2ec C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_abbrev  0x000004c1      0x301 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_abbrev  0x000007c2      0x1eb C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_abbrev  0x000009ad      0x2bc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_abbrev  0x00000c69      0x15b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_abbrev  0x00000dc4       0xbb C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .debug_abbrev  0x00000e7f      0x209 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_abbrev  0x00001088      0x1ad C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_line     0x00000000     0x277b
+ *(.debug_line)
+ .debug_line    0x00000000      0x22e C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x0000022e      0x613 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x00000841      0x8cb C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_line    0x0000110c      0x265 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_line    0x00001371      0x3fc C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_line    0x0000176d      0x16a C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_line    0x000018d7      0x11a C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .debug_line    0x000019f1      0x446 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_line    0x00001e37      0x944 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_frame    0x00000000     0x1000
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x160 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x00000160      0x214 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_frame   0x00000374      0x280 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_frame   0x000005f4       0xa4 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_frame   0x00000698      0x200 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_frame   0x00000898       0x48 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x000008e0      0x174 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_frame   0x00000a54      0x510 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .debug_frame   0x00000f64       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x00000f84       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .debug_frame   0x00000fb0       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000fd8       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+
+.debug_str      0x00000000     0x3f64
+ *(.debug_str)
+ .debug_str     0x00000000      0x2a1 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+                                0x32e (size before relaxing)
+ .debug_str     0x000002a1     0x1341 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                               0x14bf (size before relaxing)
+ .debug_str     0x000015e2      0x77e C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+                               0x16d0 (size before relaxing)
+ .debug_str     0x00001d60      0x465 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+                               0x1297 (size before relaxing)
+ .debug_str     0x000021c5     0x10c7 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+                               0x131b (size before relaxing)
+ .debug_str     0x0000328c       0xf7 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                                0x462 (size before relaxing)
+ .debug_str     0x00003383      0x22b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+                                0x487 (size before relaxing)
+ .debug_str     0x000035ae      0x32c C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+                                0xfed (size before relaxing)
+ .debug_str     0x000038da      0x68a C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+                               0x133b (size before relaxing)
+
+.debug_loc      0x00000000     0x2902
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x223 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x00000223      0x7b1 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_loc     0x000009d4      0xab9 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_loc     0x0000148d      0x1d7 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_loc     0x00001664      0x5db C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_loc     0x00001c3f       0xd7 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_loc     0x00001d16      0x761 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_loc     0x00002477      0x48b C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./main.o
+ .ARM.attributes
+                0x00000073       0x31 ./my_timer.o
+ .ARM.attributes
+                0x000000a4       0x21 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .ARM.attributes
+                0x000000c5       0x31 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x000000f6       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .ARM.attributes
+                0x00000127       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .ARM.attributes
+                0x00000158       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .ARM.attributes
+                0x00000189       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .ARM.attributes
+                0x000001ba       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .ARM.attributes
+                0x000001eb       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_config.o)
+ .ARM.attributes
+                0x0000021c       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .ARM.attributes
+                0x0000024d       0x31 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)
+ .ARM.attributes
+                0x0000027e       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000002a7       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000002d0       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000002f9       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000322       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x0000034b       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x00000374       0x19 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(ps2_MSS_MSS_CM3_0_app elf32-littlearm)
+
+.debug_ranges   0x00000000     0x11a8
+ .debug_ranges  0x00000000       0xa0 C:/Users/jimzhang/Documents/ps2try/ps2try/SoftConsole/ps2_MSS_MSS_CM3_0/ps2_MSS_MSS_CM3_0_hw_platform/Release/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000a0      0x220 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_ranges  0x000002c0      0x2c8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_spi.o)
+ .debug_ranges  0x00000588       0xd8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_gpio.o)
+ .debug_ranges  0x00000660      0x180 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(mss_ace.o)
+ .debug_ranges  0x000007e0       0xf8 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_ranges  0x000008d8      0x300 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_convert.o)
+ .debug_ranges  0x00000bd8      0x5d0 C:\Users\jimzhang\Documents\ps2try\ps2try\SoftConsole\ps2_MSS_MSS_CM3_0\ps2_MSS_MSS_CM3_0_hw_platform\Release\libps2_MSS_MSS_CM3_0_hw_platform.a(ace_flags.o)

@@ -1,0 +1,2 @@
+@E: CG389 :"C:\Users\jimzhang\Documents\ps2try\component\work\ps2\ps2.v":399:11:399:22|Reference to undefined module motor_left
+

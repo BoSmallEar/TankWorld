@@ -1,0 +1,1160 @@
+<html><body><samp><pre>
+<!@TC:1555957771>
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: EECS373-14
+
+# Mon Apr 22 14:29:31 2019
+
+#Implementation: synthesis
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1555957772> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017</a>
+@N: : <!@TM:1555957772> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v" (library work)
+<font color=#A52A2A>@W: : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v:130:7:130:19:@W::@XP_MSG">delayWrapper.v(130)</a><!@TM:1555957772> | Net BUS_WRITE_EN is not declared.</font>
+<font color=#A52A2A>@W: : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v:131:7:131:18:@W::@XP_MSG">delayWrapper.v(131)</a><!@TM:1555957772> | Net BUS_READ_EN is not declared.</font>
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\mss_tshell.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\ps2_MSS.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v" (library work)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v" (library work)
+<font color=#A52A2A>@W: : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v:154:7:154:19:@W::@XP_MSG">timerWrapper.v(154)</a><!@TM:1555957772> | Net BUS_WRITE_EN is not declared.</font>
+<font color=#A52A2A>@W: : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v:155:7:155:18:@W::@XP_MSG">timerWrapper.v(155)</a><!@TM:1555957772> | Net BUS_READ_EN is not declared.</font>
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2\ps2.v" (library work)
+Verilog syntax check successful!
+File C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v changed - recompiling
+File C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2\ps2.v changed - recompiling
+Selecting top level module ps2
+<font color=#A52A2A>@W:<a href="@W:CG775:@XP_HELP">CG775</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:31:7:31:15:@W:CG775:@XP_MSG">coreapb3.v(31)</a><!@TM:1555957772> | Found Component CoreAPB3 in library COREAPB3_LIB</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v:30:7:30:24:@N:CG364:@XP_MSG">coreapb3_muxptob3.v(30)</a><!@TM:1555957772> | Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:31:7:31:15:@N:CG364:@XP_MSG">coreapb3.v(31)</a><!@TM:1555957772> | Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b1
+	APBSLOT3ENABLE=1'b1
+	APBSLOT4ENABLE=1'b1
+	APBSLOT5ENABLE=1'b1
+	APBSLOT6ENABLE=1'b1
+	APBSLOT7ENABLE=1'b1
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0010
+	FAMILY=32'b00000000000000000000000000010010
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000100
+	SL3=16'b0000000000001000
+	SL4=16'b0000000000010000
+	SL5=16'b0000000000100000
+	SL6=16'b0000000001000000
+	SL7=16'b0000000010000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:244:12:244:21:@W:CG360:@XP_MSG">coreapb3.v(244)</a><!@TM:1555957772> | Removing wire IA_PRDATA, as there is no assignment to it.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v:3:7:3:18:@N:CG364:@XP_MSG">delayWrapper.v(3)</a><!@TM:1555957772> | Synthesizing module timer_delay in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v:110:7:110:19:@N:CG364:@XP_MSG">delayWrapper.v(110)</a><!@TM:1555957772> | Synthesizing module delayWrapper in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:21:7:21:11:@N:CG364:@XP_MSG">fire.v(21)</a><!@TM:1555957772> | Synthesizing module fire in library work.
+
+	period=32'b00000000000000000000010100100100
+	pulseWidth=32'b00000000000000000000001010010010
+   Generated name = fire_1316s_658s
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[31] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit PRDATA[0] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:21:7:21:13:@N:CG364:@XP_MSG">LED_RG.v(21)</a><!@TM:1555957772> | Synthesizing module LED_RG in library work.
+
+	data_period=32'b00000000000000000000010111011011
+	bit_period=32'b00000000000000000000000000111101
+	reset_period=32'b00000000000000000000100111000100
+   Generated name = LED_RG_1499s_61s_2500s
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[0] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:59:0:59:6:@N:CL189:@XP_MSG">LED_RG.v(59)</a><!@TM:1555957772> | Register bit PRDATA[31] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:21:7:21:17:@N:CG364:@XP_MSG">motor_left.v(21)</a><!@TM:1555957772> | Synthesizing module motor_left in library work.
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[31] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit PRDATA[0] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:21:7:21:18:@N:CG364:@XP_MSG">motor_right.v(21)</a><!@TM:1555957772> | Synthesizing module motor_right in library work.
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[31] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit PRDATA[0] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:2663:7:2663:14:@N:CG364:@XP_MSG">smartfusion.v(2663)</a><!@TM:1555957772> | Synthesizing module INBUF_A in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\mss_tshell.v:1:7:1:14:@N:CG364:@XP_MSG">mss_tshell.v(1)</a><!@TM:1555957772> | Synthesizing module MSS_APB in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:151:7:151:14:@N:CG364:@XP_MSG">mss_comps.v(151)</a><!@TM:1555957772> | Synthesizing module MSS_CCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:2620:7:2620:12:@N:CG364:@XP_MSG">smartfusion.v(2620)</a><!@TM:1555957772> | Synthesizing module RCOSC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:1141:7:1141:10:@N:CG364:@XP_MSG">smartfusion.v(1141)</a><!@TM:1555957772> | Synthesizing module GND in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:1868:7:1868:10:@N:CG364:@XP_MSG">smartfusion.v(1868)</a><!@TM:1555957772> | Synthesizing module VCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:5:7:5:36:@N:CG364:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(5)</a><!@TM:1555957772> | Synthesizing module ps2_MSS_tmp_MSS_CCC_0_MSS_CCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:37:7:37:17:@N:CG364:@XP_MSG">mss_comps.v(37)</a><!@TM:1555957772> | Synthesizing module OUTBUF_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:23:7:23:16:@N:CG364:@XP_MSG">mss_comps.v(23)</a><!@TM:1555957772> | Synthesizing module INBUF_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:67:7:67:16:@N:CG364:@XP_MSG">mss_comps.v(67)</a><!@TM:1555957772> | Synthesizing module BIBUF_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:51:7:51:18:@N:CG364:@XP_MSG">mss_comps.v(51)</a><!@TM:1555957772> | Synthesizing module TRIBUFF_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:145:7:145:13:@N:CG364:@XP_MSG">mss_comps.v(145)</a><!@TM:1555957772> | Synthesizing module MSSINT in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\ps2_MSS.v:9:7:9:14:@N:CG364:@XP_MSG">ps2_MSS.v(9)</a><!@TM:1555957772> | Synthesizing module ps2_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:21:7:21:12:@N:CG364:@XP_MSG">pwm_h.v(21)</a><!@TM:1555957772> | Synthesizing module pwm_h in library work.
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[31] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit PRDATA[0] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:21:7:21:12:@N:CG364:@XP_MSG">pwm_v.v(21)</a><!@TM:1555957772> | Synthesizing module pwm_v in library work.
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[31] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit PRDATA[0] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v:3:7:3:12:@N:CG364:@XP_MSG">timerWrapper.v(3)</a><!@TM:1555957772> | Synthesizing module timer in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v:130:7:130:19:@N:CG364:@XP_MSG">timerWrapper.v(130)</a><!@TM:1555957772> | Synthesizing module timerWrapper in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2\ps2.v:9:7:9:10:@N:CG364:@XP_MSG">ps2.v(9)</a><!@TM:1555957772> | Synthesizing module ps2 in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v:16:12:16:20:@W:CL246:@XP_MSG">timerWrapper.v(16)</a><!@TM:1555957772> | Input port bits 7 to 4 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v:16:12:16:20:@W:CL246:@XP_MSG">timerWrapper.v(16)</a><!@TM:1555957772> | Input port bits 1 to 0 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Register bit count[31] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@W:CL279:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957772> | Pruning register bits 31 to 20 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:29:17:29:22:@W:CL246:@XP_MSG">pwm_v.v(29)</a><!@TM:1555957772> | Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v:29:17:29:22:@W:CL246:@XP_MSG">pwm_v.v(29)</a><!@TM:1555957772> | Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:CL189:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Register bit count[31] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@W:CL279:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957772> | Pruning register bits 31 to 20 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:29:17:29:22:@W:CL246:@XP_MSG">pwm_h.v(29)</a><!@TM:1555957772> | Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v:29:17:29:22:@W:CL246:@XP_MSG">pwm_h.v(29)</a><!@TM:1555957772> | Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:62:7:62:19:@W:CL157:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(62)</a><!@TM:1555957772> | *Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:63:7:63:21:@W:CL157:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(63)</a><!@TM:1555957772> | *Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:64:7:64:19:@W:CL157:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(64)</a><!@TM:1555957772> | *Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:36:7:36:11:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(36)</a><!@TM:1555957772> | Input CLKA is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:37:7:37:15:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(37)</a><!@TM:1555957772> | Input CLKA_PAD is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:38:7:38:16:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(38)</a><!@TM:1555957772> | Input CLKA_PADP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:39:7:39:16:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(39)</a><!@TM:1555957772> | Input CLKA_PADN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:40:7:40:11:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(40)</a><!@TM:1555957772> | Input CLKB is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:41:7:41:15:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(41)</a><!@TM:1555957772> | Input CLKB_PAD is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:42:7:42:16:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(42)</a><!@TM:1555957772> | Input CLKB_PADP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:43:7:43:16:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(43)</a><!@TM:1555957772> | Input CLKB_PADN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:44:7:44:11:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(44)</a><!@TM:1555957772> | Input CLKC is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:45:7:45:15:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(45)</a><!@TM:1555957772> | Input CLKC_PAD is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:46:7:46:16:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(46)</a><!@TM:1555957772> | Input CLKC_PADP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:47:7:47:16:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(47)</a><!@TM:1555957772> | Input CLKC_PADN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:48:7:48:14:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(48)</a><!@TM:1555957772> | Input MAINXIN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:49:7:49:12:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(49)</a><!@TM:1555957772> | Input LPXIN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v:50:7:50:14:@N:CL159:@XP_MSG">ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v(50)</a><!@TM:1555957772> | Input MAC_CLK is unused.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:CL189:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Register bit count[31] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@W:CL279:@XP_MSG">motor_right.v(45)</a><!@TM:1555957772> | Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:29:17:29:22:@W:CL246:@XP_MSG">motor_right.v(29)</a><!@TM:1555957772> | Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v:29:17:29:22:@W:CL246:@XP_MSG">motor_right.v(29)</a><!@TM:1555957772> | Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:CL189:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Register bit count[31] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@W:CL279:@XP_MSG">motor_left.v(45)</a><!@TM:1555957772> | Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:29:17:29:22:@W:CL246:@XP_MSG">motor_left.v(29)</a><!@TM:1555957772> | Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v:29:17:29:22:@W:CL246:@XP_MSG">motor_left.v(29)</a><!@TM:1555957772> | Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:29:17:29:22:@W:CL246:@XP_MSG">LED_RG.v(29)</a><!@TM:1555957772> | Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:29:17:29:22:@W:CL246:@XP_MSG">LED_RG.v(29)</a><!@TM:1555957772> | Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:30:22:30:28:@W:CL246:@XP_MSG">LED_RG.v(30)</a><!@TM:1555957772> | Input port bits 31 to 5 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v:23:10:23:17:@N:CL159:@XP_MSG">LED_RG.v(23)</a><!@TM:1555957772> | Input PRESERN is unused.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:CL189:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Register bit count[11] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@W:CL260:@XP_MSG">fire.v(46)</a><!@TM:1555957772> | Pruning register bit 11 of count[11:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:29:17:29:22:@W:CL246:@XP_MSG">fire.v(29)</a><!@TM:1555957772> | Input port bits 31 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:29:17:29:22:@W:CL246:@XP_MSG">fire.v(29)</a><!@TM:1555957772> | Input port bits 7 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v:30:22:30:28:@W:CL246:@XP_MSG">fire.v(30)</a><!@TM:1555957772> | Input port bits 31 to 1 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v:14:12:14:20:@W:CL246:@XP_MSG">delayWrapper.v(14)</a><!@TM:1555957772> | Input port bits 7 to 4 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.</font>
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v:14:12:14:20:@W:CL246:@XP_MSG">delayWrapper.v(14)</a><!@TM:1555957772> | Input port bits 1 to 0 of bus_addr[7:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:72:36:72:41:@N:CL159:@XP_MSG">coreapb3.v(72)</a><!@TM:1555957772> | Input IADDR is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:73:13:73:20:@N:CL159:@XP_MSG">coreapb3.v(73)</a><!@TM:1555957772> | Input PRESETN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:74:13:74:17:@N:CL159:@XP_MSG">coreapb3.v(74)</a><!@TM:1555957772> | Input PCLK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:112:18:112:26:@N:CL159:@XP_MSG">coreapb3.v(112)</a><!@TM:1555957772> | Input PRDATAS8 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:113:18:113:26:@N:CL159:@XP_MSG">coreapb3.v(113)</a><!@TM:1555957772> | Input PRDATAS9 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:114:18:114:27:@N:CL159:@XP_MSG">coreapb3.v(114)</a><!@TM:1555957772> | Input PRDATAS10 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:115:18:115:27:@N:CL159:@XP_MSG">coreapb3.v(115)</a><!@TM:1555957772> | Input PRDATAS11 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:116:18:116:27:@N:CL159:@XP_MSG">coreapb3.v(116)</a><!@TM:1555957772> | Input PRDATAS12 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:117:18:117:27:@N:CL159:@XP_MSG">coreapb3.v(117)</a><!@TM:1555957772> | Input PRDATAS13 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:118:18:118:27:@N:CL159:@XP_MSG">coreapb3.v(118)</a><!@TM:1555957772> | Input PRDATAS14 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:119:18:119:27:@N:CL159:@XP_MSG">coreapb3.v(119)</a><!@TM:1555957772> | Input PRDATAS15 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:129:13:129:21:@N:CL159:@XP_MSG">coreapb3.v(129)</a><!@TM:1555957772> | Input PREADYS8 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:130:13:130:21:@N:CL159:@XP_MSG">coreapb3.v(130)</a><!@TM:1555957772> | Input PREADYS9 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:131:13:131:22:@N:CL159:@XP_MSG">coreapb3.v(131)</a><!@TM:1555957772> | Input PREADYS10 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:132:13:132:22:@N:CL159:@XP_MSG">coreapb3.v(132)</a><!@TM:1555957772> | Input PREADYS11 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:133:13:133:22:@N:CL159:@XP_MSG">coreapb3.v(133)</a><!@TM:1555957772> | Input PREADYS12 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:134:13:134:22:@N:CL159:@XP_MSG">coreapb3.v(134)</a><!@TM:1555957772> | Input PREADYS13 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:135:13:135:22:@N:CL159:@XP_MSG">coreapb3.v(135)</a><!@TM:1555957772> | Input PREADYS14 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:136:13:136:22:@N:CL159:@XP_MSG">coreapb3.v(136)</a><!@TM:1555957772> | Input PREADYS15 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:146:13:146:22:@N:CL159:@XP_MSG">coreapb3.v(146)</a><!@TM:1555957772> | Input PSLVERRS8 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:147:13:147:22:@N:CL159:@XP_MSG">coreapb3.v(147)</a><!@TM:1555957772> | Input PSLVERRS9 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:148:13:148:23:@N:CL159:@XP_MSG">coreapb3.v(148)</a><!@TM:1555957772> | Input PSLVERRS10 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:149:13:149:23:@N:CL159:@XP_MSG">coreapb3.v(149)</a><!@TM:1555957772> | Input PSLVERRS11 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:150:13:150:23:@N:CL159:@XP_MSG">coreapb3.v(150)</a><!@TM:1555957772> | Input PSLVERRS12 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:151:13:151:23:@N:CL159:@XP_MSG">coreapb3.v(151)</a><!@TM:1555957772> | Input PSLVERRS13 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:152:13:152:23:@N:CL159:@XP_MSG">coreapb3.v(152)</a><!@TM:1555957772> | Input PSLVERRS14 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v:153:13:153:23:@N:CL159:@XP_MSG">coreapb3.v(153)</a><!@TM:1555957772> | Input PSLVERRS15 is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 22 14:29:31 2019
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1555957772> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 22 14:29:32 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 22 14:29:32 2019
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1555957773> | Running in 64-bit mode 
+File C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\synwork\ps2_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 22 14:29:33 2019
+
+###########################################################]
+# Mon Apr 22 14:29:33 2019
+
+<a name=mapperReport5></a>Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\mss_tshell_syn.sdc
+Linked File: <a href="C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2_scck.rpt:@XP_FILE">ps2_scck.rpt</a>
+Printing clock  summary report in "C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1555957773> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1555957773> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 109MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 109MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v:64:7:64:19:@N:MO111:@XP_MSG">ps2_mss_tmp_mss_ccc_0_mss_ccc.v(64)</a><!@TM:1555957773> | Tristate driver LPXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v:63:7:63:21:@N:MO111:@XP_MSG">ps2_mss_tmp_mss_ccc_0_mss_ccc.v(63)</a><!@TM:1555957773> | Tristate driver MAINXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v:62:7:62:19:@N:MO111:@XP_MSG">ps2_mss_tmp_mss_ccc_0_mss_ccc.v(62)</a><!@TM:1555957773> | Tristate driver RCOSC_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start       Requested     Requested     Clock        Clock           Clock
+Clock       Frequency     Period        Type         Group           Load 
+--------------------------------------------------------------------------
+FAB_CLK     50.0 MHz      20.000        declared     clk_group_0     531  
+FCLK        50.0 MHz      20.000        declared     clk_group_0     0    
+==========================================================================
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1555957773> | Writing default property annotation file C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 114MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 22 14:29:33 2019
+
+###########################################################]
+# Mon Apr 22 14:29:34 2019
+
+<a name=mapperReport7></a>Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1555957776> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1555957776> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v:64:7:64:19:@N:MO111:@XP_MSG">ps2_mss_tmp_mss_ccc_0_mss_ccc.v(64)</a><!@TM:1555957776> | Tristate driver LPXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v:63:7:63:21:@N:MO111:@XP_MSG">ps2_mss_tmp_mss_ccc_0_mss_ccc.v(63)</a><!@TM:1555957776> | Tristate driver MAINXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v:62:7:62:19:@N:MO111:@XP_MSG">ps2_mss_tmp_mss_ccc_0_mss_ccc.v(62)</a><!@TM:1555957776> | Tristate driver RCOSC_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\delaywrapper.v:87:0:87:6:@N:MO231:@XP_MSG">delaywrapper.v(87)</a><!@TM:1555957776> | Found counter in view:work.timer_delay(verilog) instance counterReg[31:0] 
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\fire.v:46:0:46:6:@N:MO231:@XP_MSG">fire.v(46)</a><!@TM:1555957776> | Found counter in view:work.fire_1316s_658s(verilog) instance count[10:0] 
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\led_rg.v:59:0:59:6:@N:MO231:@XP_MSG">led_rg.v(59)</a><!@TM:1555957776> | Found counter in view:work.LED_RG_1499s_61s_2500s(verilog) instance clk_div_2[10:0] 
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\led_rg.v:59:0:59:6:@N:MO231:@XP_MSG">led_rg.v(59)</a><!@TM:1555957776> | Found counter in view:work.LED_RG_1499s_61s_2500s(verilog) instance clk_div_1[10:0] 
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_left.v:45:0:45:6:@N:MO231:@XP_MSG">motor_left.v(45)</a><!@TM:1555957776> | Found counter in view:work.motor_left(verilog) instance count[16:0] 
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_left.v:55:8:55:27:@N:MF179:@XP_MSG">motor_left.v(55)</a><!@TM:1555957776> | Found 32 by 32 bit less-than operator ('<') motor_left_out4 (in view: work.motor_left(verilog))
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_right.v:45:0:45:6:@N:MO231:@XP_MSG">motor_right.v(45)</a><!@TM:1555957776> | Found counter in view:work.motor_right(verilog) instance count[16:0] 
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_right.v:55:8:55:27:@N:MF179:@XP_MSG">motor_right.v(55)</a><!@TM:1555957776> | Found 32 by 32 bit less-than operator ('<') motor_right_out4 (in view: work.motor_right(verilog))
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_h.v:45:0:45:6:@N:MO231:@XP_MSG">pwm_h.v(45)</a><!@TM:1555957776> | Found counter in view:work.pwm_h(verilog) instance count[19:0] 
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_h.v:55:8:55:27:@N:MF179:@XP_MSG">pwm_h.v(55)</a><!@TM:1555957776> | Found 32 by 32 bit less-than operator ('<') pwm_h_out4 (in view: work.pwm_h(verilog))
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_v.v:45:0:45:6:@N:MO231:@XP_MSG">pwm_v.v(45)</a><!@TM:1555957776> | Found counter in view:work.pwm_v(verilog) instance count[19:0] 
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_v.v:55:8:55:27:@N:MF179:@XP_MSG">pwm_v.v(55)</a><!@TM:1555957776> | Found 32 by 32 bit less-than operator ('<') pwm_v_out4 (in view: work.pwm_v(verilog))
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\hdl\timerwrapper.v:91:0:91:6:@N:MO231:@XP_MSG">timerwrapper.v(91)</a><!@TM:1555957776> | Found counter in view:work.timer(verilog) instance counterReg[31:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 121MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 121MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 121MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 122MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 121MB peak: 122MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 121MB peak: 122MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 121MB peak: 122MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 122MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 122MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                            Fanout, notes
+-------------------------------------------------------------------
+ps2_MSS_0.MSS_ADLIB_INST / MSSPADDR[2]                67           
+ps2_MSS_0.MSS_ADLIB_INST / MSSPADDR[3]                69           
+ps2_MSS_0.MSS_ADLIB_INST / M2FRESETn                  272          
+delayWrapper_0.timer_0.un1_overflowReset12 / Y        32           
+delayWrapper_0.timer_0.overflowReset_0_sqmuxa / Y     33           
+delayWrapper_0.timer_0.controlReg_1_sqmuxa / Y        32           
+motor_left_0.PWM_write_4 / Y                          32           
+motor_right_0.PWM_write / Y                           32           
+pwm_h_0.PWM_write / Y                                 32           
+pwm_v_0.PWM_write / Y                                 32           
+timerWrapper_0.timer_0.overflowReset_0_sqmuxa / Y     33           
+timerWrapper_0.timer_0.controlReg_1_sqmuxa / Y        32           
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_1[31] / Y        36           
+timerWrapper_0.timer_0.un1_overflowReset12 / Y        32           
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_2[31] / Y        36           
+timerWrapper_0.timer_0.counterReg_1_sqmuxa / Y        33           
+delayWrapper_0.timer_0.counterReg_1_sqmuxa_1 / Y      33           
+===================================================================
+
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1555957776> | Promoting Net ps2_MSS_0_M2F_RESET_N on CLKINT  I_105  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1555957776> | Promoting Net CoreAPB3_0_APBmslave0_PADDR[3] on CLKINT  I_106  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1555957776> | Promoting Net CoreAPB3_0_APBmslave0_PADDR[2] on CLKINT  I_107  
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 122MB)
+
+Replicating Combinational Instance delayWrapper_0.timer_0.counterReg_1_sqmuxa_1, fanout 33 segments 2
+Replicating Combinational Instance timerWrapper_0.timer_0.counterReg_1_sqmuxa, fanout 33 segments 2
+Replicating Combinational Instance CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_2[31], fanout 36 segments 2
+Replicating Combinational Instance timerWrapper_0.timer_0.un1_overflowReset12, fanout 32 segments 2
+Replicating Combinational Instance CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_1[31], fanout 36 segments 2
+Replicating Combinational Instance timerWrapper_0.timer_0.controlReg_1_sqmuxa, fanout 32 segments 2
+Replicating Combinational Instance timerWrapper_0.timer_0.overflowReset_0_sqmuxa, fanout 33 segments 2
+Replicating Combinational Instance pwm_v_0.PWM_write, fanout 32 segments 2
+Replicating Combinational Instance pwm_h_0.PWM_write, fanout 32 segments 2
+Replicating Combinational Instance motor_right_0.PWM_write, fanout 32 segments 2
+Replicating Combinational Instance motor_left_0.PWM_write_4, fanout 32 segments 2
+Replicating Combinational Instance delayWrapper_0.timer_0.controlReg_1_sqmuxa, fanout 32 segments 2
+Replicating Combinational Instance delayWrapper_0.timer_0.overflowReset_0_sqmuxa, fanout 33 segments 2
+Replicating Combinational Instance delayWrapper_0.timer_0.un1_overflowReset12, fanout 32 segments 2
+
+Added 0 Buffers
+Added 14 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 14 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 122MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 531 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+==================================== Non-Gated/Non-Generated Clocks =====================================
+Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance       
+---------------------------------------------------------------------------------------------------------
+<a href="@|S:ps2_MSS_0@|E:pwm_v_0.pulseWidth[31]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       ps2_MSS_0           clock definition on hierarchy     531        pwm_v_0.pulseWidth[31]
+=========================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 122MB)
+
+Writing Analyst data base C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\synwork\ps2_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 122MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 119MB peak: 122MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT246:@XP_HELP">MT246</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\ps2_mss.v:759:7:759:19:@W:MT246:@XP_MSG">ps2_mss.v(759)</a><!@TM:1555957776> | Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </font>
+<font color=#A52A2A>@W:<a href="@W:MT246:@XP_HELP">MT246</a> : <a href="c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\ps2_mss.v:684:0:684:12:@W:MT246:@XP_MSG">ps2_mss.v(684)</a><!@TM:1555957776> | Blackbox TRIBUFF_MSS is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </font>
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1555957776> | Found clock FCLK with period 20.00ns  
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1555957776> | Found clock FAB_CLK with period 20.00ns  
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Mon Apr 22 14:29:36 2019
+#
+
+
+Top view:               ps2
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\mss_tshell_syn.sdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1555957776> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1555957776> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: 0.360
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group          
+-----------------------------------------------------------------------------------------------------------------
+FAB_CLK            50.0 MHz      50.9 MHz      20.000        19.640        0.360     declared     clk_group_0    
+FCLK               50.0 MHz      NA            20.000        NA            NA        declared     clk_group_0    
+System             100.0 MHz     129.3 MHz     10.000        7.734         2.266     system       system_clkgroup
+=================================================================================================================
+@N:<a href="@N:MT582:@XP_HELP">MT582</a> : <!@TM:1555957776> | Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack 
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System   |  10.000      2.266   |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  20.000      9.235   |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  20.000      17.152  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  20.000      0.360   |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: FAB_CLK</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                                         Starting                                         Arrival          
+Instance                                 Reference     Type     Pin     Net               Time        Slack
+                                         Clock                                                             
+-----------------------------------------------------------------------------------------------------------
+pwm_h_0.count[1]                         FAB_CLK       DFN1     Q       count[1]          0.737       0.360
+pwm_v_0.count[1]                         FAB_CLK       DFN1     Q       count[1]          0.737       0.360
+pwm_h_0.count[0]                         FAB_CLK       DFN1     Q       count[0]          0.737       0.473
+pwm_v_0.count[0]                         FAB_CLK       DFN1     Q       count[0]          0.737       0.473
+pwm_v_0.count[2]                         FAB_CLK       DFN1     Q       count[2]          0.737       1.261
+pwm_h_0.count[2]                         FAB_CLK       DFN1     Q       count[2]          0.737       1.261
+delayWrapper_0.timer_0.counterReg[0]     FAB_CLK       DFN1     Q       counterReg[0]     0.737       1.375
+delayWrapper_0.timer_0.counterReg[2]     FAB_CLK       DFN1     Q       counterReg[2]     0.737       1.580
+delayWrapper_0.timer_0.counterReg[1]     FAB_CLK       DFN1     Q       counterReg[1]     0.737       1.662
+delayWrapper_0.timer_0.counterReg[3]     FAB_CLK       DFN1     Q       counterReg[3]     0.737       1.857
+===========================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                                          Starting                                     Required          
+Instance                                  Reference     Type     Pin     Net           Time         Slack
+                                          Clock                                                          
+---------------------------------------------------------------------------------------------------------
+pwm_v_0.count[18]                         FAB_CLK       DFN1     D       count_n18     19.427       0.360
+pwm_h_0.count[18]                         FAB_CLK       DFN1     D       count_n18     19.427       0.360
+pwm_h_0.count[19]                         FAB_CLK       DFN1     D       count_n19     19.461       0.439
+pwm_v_0.count[19]                         FAB_CLK       DFN1     D       count_n19     19.461       0.439
+pwm_v_0.count[17]                         FAB_CLK       DFN1     D       count_n17     19.427       1.261
+pwm_h_0.count[17]                         FAB_CLK       DFN1     D       count_n17     19.427       1.261
+delayWrapper_0.timer_0.counterReg[24]     FAB_CLK       DFN1     D       N_13          19.427       1.375
+LED_RG_0.reset_counter[15]                FAB_CLK       DFN1     D       I_51          19.461       1.938
+pwm_h_0.count[16]                         FAB_CLK       DFN1     D       count_n16     19.427       2.161
+pwm_v_0.count[16]                         FAB_CLK       DFN1     D       count_n16     19.427       2.161
+=========================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2.srr:srsfC:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2.srs:fp:76667:81911:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.427
+
+    - Propagation time:                      19.066
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.360
+
+    Number of logic level(s):                18
+    Starting point:                          pwm_h_0.count[1] / Q
+    Ending point:                            pwm_h_0.count[18] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                           Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+pwm_h_0.count[1]               DFN1      Q        Out     0.737     0.737       -         
+count[1]                       Net       -        -       1.184     -           4         
+pwm_h_0.count_RNIJT3T[0]       NOR2B     B        In      -         1.921       -         
+pwm_h_0.count_RNIJT3T[0]       NOR2B     Y        Out     0.627     2.548       -         
+count_c1                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIUTLB1[2]      NOR2B     A        In      -         2.934       -         
+pwm_h_0.count_RNIUTLB1[2]      NOR2B     Y        Out     0.514     3.448       -         
+count_c2                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIAV7Q1[3]      NOR2B     A        In      -         3.834       -         
+pwm_h_0.count_RNIAV7Q1[3]      NOR2B     Y        Out     0.514     4.348       -         
+count_c3                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIN1Q82[4]      NOR2B     A        In      -         4.734       -         
+pwm_h_0.count_RNIN1Q82[4]      NOR2B     Y        Out     0.514     5.248       -         
+count_c4                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNI55CN2[5]      NOR2B     A        In      -         5.634       -         
+pwm_h_0.count_RNI55CN2[5]      NOR2B     Y        Out     0.514     6.149       -         
+count_c5                       Net       -        -       0.806     -           3         
+pwm_h_0.count_RNIK9U53[6]      NOR2B     A        In      -         6.955       -         
+pwm_h_0.count_RNIK9U53[6]      NOR2B     Y        Out     0.514     7.470       -         
+count_c6                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNI4FGK3[7]      NOR2B     A        In      -         7.855       -         
+pwm_h_0.count_RNI4FGK3[7]      NOR2B     Y        Out     0.514     8.370       -         
+count_c7                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNILL234[8]      NOR2B     A        In      -         8.755       -         
+pwm_h_0.count_RNILL234[8]      NOR2B     Y        Out     0.514     9.270       -         
+count_c8                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNI7TKH4[9]      NOR2B     A        In      -         9.656       -         
+pwm_h_0.count_RNI7TKH4[9]      NOR2B     Y        Out     0.514     10.170      -         
+count_c9                       Net       -        -       0.386     -           2         
+pwm_h_0.count_RNI1R4I4[10]     NOR2B     A        In      -         10.556      -         
+pwm_h_0.count_RNI1R4I4[10]     NOR2B     Y        Out     0.514     11.070      -         
+count_c10                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNISPKI4[11]     NOR2B     A        In      -         11.456      -         
+pwm_h_0.count_RNISPKI4[11]     NOR2B     Y        Out     0.514     11.970      -         
+count_c11                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIOP4J4[12]     NOR2B     A        In      -         12.356      -         
+pwm_h_0.count_RNIOP4J4[12]     NOR2B     Y        Out     0.514     12.871      -         
+count_c12                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNILQKJ4[13]     NOR2B     A        In      -         13.257      -         
+pwm_h_0.count_RNILQKJ4[13]     NOR2B     Y        Out     0.514     13.771      -         
+count_c13                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIJS4K4[14]     NOR2B     A        In      -         14.157      -         
+pwm_h_0.count_RNIJS4K4[14]     NOR2B     Y        Out     0.514     14.671      -         
+count_c14                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIIVKK4[15]     NOR2B     A        In      -         15.057      -         
+pwm_h_0.count_RNIIVKK4[15]     NOR2B     Y        Out     0.514     15.571      -         
+count_c15                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNII35L4[16]     NOR2B     A        In      -         15.957      -         
+pwm_h_0.count_RNII35L4[16]     NOR2B     Y        Out     0.514     16.471      -         
+count_c16                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNIJ8LL4[17]     NOR2B     A        In      -         16.857      -         
+pwm_h_0.count_RNIJ8LL4[17]     NOR2B     Y        Out     0.514     17.372      -         
+count_c17                      Net       -        -       0.386     -           2         
+pwm_h_0.count_RNO[18]          XA1       B        In      -         17.758      -         
+pwm_h_0.count_RNO[18]          XA1       Y        Out     0.987     18.745      -         
+count_n18                      Net       -        -       0.322     -           1         
+pwm_h_0.count[18]              DFN1      D        In      -         19.066      -         
+==========================================================================================
+Total path delay (propagation time + setup) of 19.640 is 11.155(56.8%) logic and 8.484(43.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+<a name=clockReport17></a>Detailed Report for Clock: System</a>
+====================================
+
+
+
+<a name=startingSlack18></a>Starting Points with Worst Slack</a>
+********************************
+
+                             Starting                                                                       Arrival          
+Instance                     Reference     Type        Pin              Net                                 Time        Slack
+                             Clock                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      CoreAPB3_0_APBmslave0_PADDR[9]      0.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     CoreAPB3_0_APBmslave0_PADDR[11]     0.000       2.450
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          ps2_MSS_0_MSS_MASTER_APB_PSELx      0.000       2.652
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[8]      CoreAPB3_0_APBmslave0_PADDR[8]      0.000       3.394
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     CoreAPB3_0_APBmslave0_PADDR[10]     0.000       3.705
+ps2_MSS_0.MSSINT_GPI_5       System        MSSINT      Y                MSSINT_GPI_5_Y                      0.000       9.678
+ps2_MSS_0.MSSINT_GPI_8       System        MSSINT      Y                MSSINT_GPI_8_Y                      0.000       9.678
+ps2_MSS_0.MSS_ACE_0_ADC2     System        INBUF_A     Y                MSS_ACE_0_ADC2_Y                    0.000       9.678
+ps2_MSS_0.MSS_ACE_0_ADC3     System        INBUF_A     Y                MSS_ACE_0_ADC3_Y                    0.000       9.678
+ps2_MSS_0.MSS_ACE_0_ADC4     System        INBUF_A     Y                MSS_ACE_0_ADC4_Y                    0.000       9.678
+=============================================================================================================================
+
+
+<a name=endingSlack19></a>Ending Points with Worst Slack</a>
+******************************
+
+                             Starting                                                                            Required          
+Instance                     Reference     Type        Pin               Net                                     Time         Slack
+                             Clock                                                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[10]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[10]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[11]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[11]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[12]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[12]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[13]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[13]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[14]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[14]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[15]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[15]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[16]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[16]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[17]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[17]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[18]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[18]     10.000       2.266
+ps2_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[19]     ps2_MSS_0_MSS_MASTER_APB_PRDATA[19]     10.000       2.266
+===================================================================================================================================
+
+
+
+<a name=worstPaths20></a>Worst Path Information</a>
+<a href="C:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2.srr:srsfC:\Users\jimzhang\Documents\ps2try\ps2try\synthesis\ps2.srs:fp:87690:89505:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      7.734
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 2.266
+
+    Number of logic level(s):                4
+    Starting point:                          ps2_MSS_0.MSS_ADLIB_INST / MSSPADDR[9]
+    Ending point:                            ps2_MSS_0.MSS_ADLIB_INST / MSSPRDATA[10]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                               Pin               Pin               Arrival     No. of    
+Name                                             Type        Name              Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+ps2_MSS_0.MSS_ADLIB_INST                         MSS_APB     MSSPADDR[9]       Out     0.000     0.000       -         
+CoreAPB3_0_APBmslave0_PADDR[9]                   Net         -                 -       0.806     -           3         
+CoreAPB3_0.iPSELS_0_a2_0[7]                      NOR3B       B                 In      -         0.806       -         
+CoreAPB3_0.iPSELS_0_a2_0[7]                      NOR3B       Y                 Out     0.607     1.413       -         
+N_435                                            Net         -                 -       1.423     -           6         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_1_0[31]     NOR3A       A                 In      -         2.836       -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_1_0[31]     NOR3A       Y                 Out     0.641     3.478       -         
+N_437_0                                          Net         -                 -       2.353     -           20        
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_0[10]       NOR2B       B                 In      -         5.831       -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_a2_0[10]       NOR2B       Y                 Out     0.627     6.458       -         
+N_413                                            Net         -                 -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0[10]            AO1         C                 In      -         6.780       -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0[10]            AO1         Y                 Out     0.633     7.412       -         
+ps2_MSS_0_MSS_MASTER_APB_PRDATA[10]              Net         -                 -       0.322     -           1         
+ps2_MSS_0.MSS_ADLIB_INST                         MSS_APB     MSSPRDATA[10]     In      -         7.734       -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 7.734 is 2.508(32.4%) logic and 5.226(67.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 119MB peak: 122MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 119MB peak: 122MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+<a name=cellReport21></a>Report for cell ps2.verilog</a>
+  Core Cell usage:
+              cell count     area count*area
+              AND2    31      1.0       31.0
+             AND2A     4      1.0        4.0
+              AND3    24      1.0       24.0
+               AO1    63      1.0       63.0
+              AO1A     3      1.0        3.0
+              AO1B     1      1.0        1.0
+              AO1C    41      1.0       41.0
+              AOI1     1      1.0        1.0
+             AOI1A     8      1.0        8.0
+             AOI1B     2      1.0        2.0
+               AX1     1      1.0        1.0
+              AX1C    37      1.0       37.0
+             AXOI5     1      1.0        1.0
+            CLKINT     3      0.0        0.0
+               GND    15      0.0        0.0
+            MSSINT     2      0.0        0.0
+           MSS_APB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+               MX2   383      1.0      383.0
+              MX2A     4      1.0        4.0
+              MX2C     2      1.0        2.0
+              NOR2    33      1.0       33.0
+             NOR2A    68      1.0       68.0
+             NOR2B   459      1.0      459.0
+              NOR3    32      1.0       32.0
+             NOR3A    25      1.0       25.0
+             NOR3B    20      1.0       20.0
+             NOR3C    74      1.0       74.0
+               OA1    21      1.0       21.0
+              OA1A    30      1.0       30.0
+              OA1C     8      1.0        8.0
+              OAI1     3      1.0        3.0
+               OR2    43      1.0       43.0
+              OR2A    91      1.0       91.0
+              OR2B    10      1.0       10.0
+               OR3    22      1.0       22.0
+              OR3A     1      1.0        1.0
+              OR3B     3      1.0        3.0
+              OR3C     4      1.0        4.0
+             RCOSC     1      0.0        0.0
+               VCC    15      0.0        0.0
+               XA1    77      1.0       77.0
+              XA1A     8      1.0        8.0
+              XA1B    11      1.0       11.0
+              XA1C    10      1.0       10.0
+             XNOR2    66      1.0       66.0
+               XO1    20      1.0       20.0
+              XOR2   110      1.0      110.0
+
+
+              DFN1   438      1.0      438.0
+            DFN1E0    87      1.0       87.0
+            DFN1E1     6      1.0        6.0
+                   -----          ----------
+             TOTAL  2424              2386.0
+
+
+  IO Cell usage:
+              cell count
+         BIBUF_MSS     2
+           INBUF_A     6
+         INBUF_MSS     4
+            OUTBUF     6
+        OUTBUF_MSS     9
+       TRIBUFF_MSS     1
+                   -----
+             TOTAL    28
+
+
+Core Cells         : 2386 of 4608 (52%)
+IO Cells           : 28
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 30MB peak: 122MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Apr 22 14:29:36 2019
+
+###########################################################]
+
+</pre></samp></body></html>

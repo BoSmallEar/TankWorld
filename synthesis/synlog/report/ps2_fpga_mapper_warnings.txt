@@ -1,0 +1,2 @@
+@W: MT246 :"c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\ps2_mss.v":759:7:759:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\ps2_mss.v":684:0:684:11|Blackbox TRIBUFF_MSS is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

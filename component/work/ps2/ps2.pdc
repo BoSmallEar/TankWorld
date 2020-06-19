@@ -1,0 +1,157 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.9 11.9.0.4
+# Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
+# Date generated: Mon Apr 22 14:29:18 2019 
+
+
+# 
+# User Groups
+# 
+
+define_group -name UART_0
+
+define_group -name SPI_1
+
+define_group -name UART_1_PADs
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io GPIO_0_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_1_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_2_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_3_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_4_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_6_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_7_OUT      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io MSS_RESET_N    \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io SPI_1_CLK      \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io SPI_1_DI       \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io SPI_1_DO        \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_1_SS       \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io UART_0_RXD     \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+# User Group UART_1_PADs
+
+set_io UART_1_RXD            \
+    -iostd LVTTL             \
+    -GROUP_NAME UART_1_PADs  \
+    -DIRECTION INPUT
+
+
+set_io UART_1_TXD            \
+    -iostd LVTTL             \
+    -GROUP_NAME UART_1_PADs  \
+    -DIRECTION OUTPUT
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io GPIO_0_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io GPIO_1_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io GPIO_2_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io GPIO_3_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io GPIO_4_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io GPIO_6_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io GPIO_7_OUT -iostd LVTTL -DIRECTION OUTPUT 
+# set_io MSS_RESET_N -iostd LVTTL -DIRECTION INPUT 
+# set_io SPI_1_CLK -iostd LVTTL -DIRECTION INOUT 
+# set_io SPI_1_DI -iostd LVTTL -DIRECTION INPUT 
+# set_io SPI_1_DO -iostd LVTTL -DIRECTION OUTPUT 
+# set_io SPI_1_SS -iostd LVTTL -DIRECTION INOUT 
+# set_io UART_0_RXD -iostd LVTTL -DIRECTION INPUT 
+# set_io UART_0_TXD -iostd LVTTL -DIRECTION OUTPUT 
+# set_io UART_1_RXD -iostd LVTTL -GROUP_NAME UART_1_PADs -DIRECTION INPUT 
+# set_io UART_1_TXD -iostd LVTTL -GROUP_NAME UART_1_PADs -DIRECTION OUTPUT 

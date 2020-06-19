@@ -1,0 +1,1275 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.9
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+Date: Mon Apr 22 14:30:26 2019
+
+
+Design: ps2
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               mss_aclk
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_fabric_interface_clock
+Period (ns):                11.173
+Frequency (MHz):            89.501
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_pclk1
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+Max Clock-To-Out (ns):      13.966
+
+Clock Domain:               mss_ccc_gla1
+Period (ns):                15.701
+Frequency (MHz):            63.690
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+Max Clock-To-Out (ns):      13.983
+
+Clock Domain:               mss_ccc_gla0
+Period (ns):                12.500
+Frequency (MHz):            80.000
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        -6.229
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               ps2_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain mss_aclk
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_fabric_interface_clock
+
+SET Register to Register
+
+Path 1
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[21]
+  Delay (ns):            13.407
+  Slack (ns):            8.827
+  Arrival (ns):          18.377
+  Required (ns):         27.204
+  Setup (ns):            -2.234
+  Minimum Period (ns):   11.173
+
+Path 2
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[20]
+  Delay (ns):            13.326
+  Slack (ns):            8.905
+  Arrival (ns):          18.296
+  Required (ns):         27.201
+  Setup (ns):            -2.231
+  Minimum Period (ns):   11.095
+
+Path 3
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[22]
+  Delay (ns):            12.836
+  Slack (ns):            9.394
+  Arrival (ns):          17.806
+  Required (ns):         27.200
+  Setup (ns):            -2.230
+  Minimum Period (ns):   10.606
+
+Path 4
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[18]
+  Delay (ns):            12.794
+  Slack (ns):            9.427
+  Arrival (ns):          17.764
+  Required (ns):         27.191
+  Setup (ns):            -2.221
+  Minimum Period (ns):   10.573
+
+Path 5
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[26]
+  Delay (ns):            12.758
+  Slack (ns):            9.474
+  Arrival (ns):          17.728
+  Required (ns):         27.202
+  Setup (ns):            -2.232
+  Minimum Period (ns):   10.526
+
+
+Expanded Path 1
+  From: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[21]
+  data required time                             27.204
+  data arrival time                          -   18.377
+  slack                                          8.827
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_fabric_interface_clock
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
+               +     4.970          Clock generation
+  4.970
+               +     2.981          cell: ADLIB:MSS_APB_IP
+  7.951                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPSEL (r)
+               +     0.123          net: ps2_MSS_0/MSS_ADLIB_INST/MSSPSELINT_NET
+  8.074                        ps2_MSS_0/MSS_ADLIB_INST/U_42:PIN1INT (r)
+               +     0.089          cell: ADLIB:MSS_IF
+  8.163                        ps2_MSS_0/MSS_ADLIB_INST/U_42:PIN1 (r)
+               +     1.129          net: ps2_MSS_0_MSS_MASTER_APB_PSELx
+  9.292                        CoreAPB3_0/iPSELS_0_a2_0[7]:A (r)
+               +     0.606          cell: ADLIB:NOR3B
+  9.898                        CoreAPB3_0/iPSELS_0_a2_0[7]:Y (r)
+               +     1.214          net: N_435
+  11.112                       CoreAPB3_0/u_mux_p_to_b3/PRDATA_0_a2_1_0[31]:A (r)
+               +     0.604          cell: ADLIB:NOR3A
+  11.716                       CoreAPB3_0/u_mux_p_to_b3/PRDATA_0_a2_1_0[31]:Y (r)
+               +     3.007          net: N_437_0
+  14.723                       CoreAPB3_0/u_mux_p_to_b3/PRDATA_0_a2_0[21]:B (r)
+               +     0.470          cell: ADLIB:NOR2B
+  15.193                       CoreAPB3_0/u_mux_p_to_b3/PRDATA_0_a2_0[21]:Y (r)
+               +     0.296          net: CoreAPB3_0/u_mux_p_to_b3/N_391
+  15.489                       CoreAPB3_0/u_mux_p_to_b3/PRDATA_0[21]:C (r)
+               +     0.698          cell: ADLIB:AO1
+  16.187                       CoreAPB3_0/u_mux_p_to_b3/PRDATA_0[21]:Y (r)
+               +     1.702          net: ps2_MSS_0_MSS_MASTER_APB_PRDATA[21]
+  17.889                       ps2_MSS_0/MSS_ADLIB_INST/U_54:PIN6 (r)
+               +     0.076          cell: ADLIB:MSS_IF
+  17.965                       ps2_MSS_0/MSS_ADLIB_INST/U_54:PIN6INT (r)
+               +     0.412          net: ps2_MSS_0/MSS_ADLIB_INST/MSSPRDATA[21]INT_NET
+  18.377                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[21] (r)
+                                    
+  18.377                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_fabric_interface_clock
+               +     0.000          Clock source
+  20.000                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
+               +     4.970          Clock generation
+  24.970
+               -    -2.234          Library setup time: ADLIB:MSS_APB_IP
+  27.204                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[21]
+                                    
+  27.204                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET mss_ccc_gla1 to mss_fabric_interface_clock
+
+Path 1
+  From:                  timerWrapper_0/timer_0/bus_read_data[26]:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[26]
+  Delay (ns):            5.457
+  Slack (ns):            15.115
+  Arrival (ns):          12.108
+  Required (ns):         27.223
+  Setup (ns):            -2.253
+
+Path 2
+  From:                  timerWrapper_0/timer_0/bus_read_data[4]:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[4]
+  Delay (ns):            5.314
+  Slack (ns):            15.201
+  Arrival (ns):          11.993
+  Required (ns):         27.194
+  Setup (ns):            -2.224
+
+Path 3
+  From:                  timerWrapper_0/timer_0/bus_read_data[25]:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[25]
+  Delay (ns):            5.306
+  Slack (ns):            15.225
+  Arrival (ns):          11.976
+  Required (ns):         27.201
+  Setup (ns):            -2.231
+
+Path 4
+  From:                  timerWrapper_0/timer_0/bus_read_data[23]:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[23]
+  Delay (ns):            5.308
+  Slack (ns):            15.272
+  Arrival (ns):          11.954
+  Required (ns):         27.226
+  Setup (ns):            -2.256
+
+Path 5
+  From:                  timerWrapper_0/timer_0/bus_read_data[8]:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[8]
+  Delay (ns):            4.963
+  Slack (ns):            15.558
+  Arrival (ns):          11.642
+  Required (ns):         27.200
+  Setup (ns):            -2.230
+
+
+Expanded Path 1
+  From: timerWrapper_0/timer_0/bus_read_data[26]:CLK
+  To: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[26]
+  data required time                             27.223
+  data arrival time                          -   12.108
+  slack                                          15.115
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  6.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.606          net: FAB_CLK
+  6.651                        timerWrapper_0/timer_0/bus_read_data[26]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1E0
+  7.322                        timerWrapper_0/timer_0/bus_read_data[26]:Q (f)
+               +     0.294          net: CoreAPB3_0_APBmslave2_PRDATA[26]
+  7.616                        CoreAPB3_0/u_mux_p_to_b3/PRDATA_0_a2_0[26]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  7.967                        CoreAPB3_0/u_mux_p_to_b3/PRDATA_0_a2_0[26]:Y (f)
+               +     1.381          net: CoreAPB3_0/u_mux_p_to_b3/N_381
+  9.348                        CoreAPB3_0/u_mux_p_to_b3/PRDATA_0[26]:C (f)
+               +     0.642          cell: ADLIB:AO1
+  9.990                        CoreAPB3_0/u_mux_p_to_b3/PRDATA_0[26]:Y (f)
+               +     1.618          net: ps2_MSS_0_MSS_MASTER_APB_PRDATA[26]
+  11.608                       ps2_MSS_0/MSS_ADLIB_INST/U_56:PIN4 (f)
+               +     0.095          cell: ADLIB:MSS_IF
+  11.703                       ps2_MSS_0/MSS_ADLIB_INST/U_56:PIN4INT (f)
+               +     0.405          net: ps2_MSS_0/MSS_ADLIB_INST/MSSPRDATA[26]INT_NET
+  12.108                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[26] (f)
+                                    
+  12.108                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_fabric_interface_clock
+               +     0.000          Clock source
+  20.000                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
+               +     4.970          Clock generation
+  24.970
+               -    -2.253          Library setup time: ADLIB:MSS_APB_IP
+  27.223                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[26]
+                                    
+  27.223                       data required time
+
+
+END SET mss_ccc_gla1 to mss_fabric_interface_clock
+
+----------------------------------------------------
+
+Clock Domain mss_pclk1
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                    GPIO_3_OUT
+  Delay (ns):            8.996
+  Slack (ns):
+  Arrival (ns):          13.966
+  Required (ns):
+  Clock to Out (ns):     13.966
+
+Path 2
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                    GPIO_7_OUT
+  Delay (ns):            8.925
+  Slack (ns):
+  Arrival (ns):          13.895
+  Required (ns):
+  Clock to Out (ns):     13.895
+
+Path 3
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                    GPIO_1_OUT
+  Delay (ns):            8.910
+  Slack (ns):
+  Arrival (ns):          13.880
+  Required (ns):
+  Clock to Out (ns):     13.880
+
+Path 4
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                    GPIO_2_OUT
+  Delay (ns):            8.900
+  Slack (ns):
+  Arrival (ns):          13.870
+  Required (ns):
+  Clock to Out (ns):     13.870
+
+Path 5
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To:                    GPIO_6_OUT
+  Delay (ns):            8.864
+  Slack (ns):
+  Arrival (ns):          13.834
+  Required (ns):
+  Clock to Out (ns):     13.834
+
+
+Expanded Path 1
+  From: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1
+  To: GPIO_3_OUT
+  data required time                             N/C
+  data arrival time                          -   13.966
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_pclk1
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     4.970          Clock generation
+  4.970
+               +     4.132          cell: ADLIB:MSS_APB_IP
+  9.102                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GPO[3] (f)
+               +     0.858          net: ps2_MSS_0/GPO_net_0[3]
+  9.960                        ps2_MSS_0/MSS_GPIO_0_GPIO_3_OUT:D (f)
+               +     4.006          cell: ADLIB:IOPAD_TRI
+  13.966                       ps2_MSS_0/MSS_GPIO_0_GPIO_3_OUT:PAD (f)
+               +     0.000          net: GPIO_3_OUT
+  13.966                       GPIO_3_OUT (f)
+                                    
+  13.966                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_pclk1
+               +     0.000          Clock source
+  N/C                          ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     4.970          Clock generation
+  N/C
+                                    
+  N/C                          GPIO_3_OUT (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET mss_ccc_gla1 to mss_pclk1
+
+Path 1
+  From:                  timerWrapper_0/timer_0/fireint:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[8]
+  Delay (ns):            3.106
+  Slack (ns):            15.737
+  Arrival (ns):          9.806
+  Required (ns):         25.543
+  Setup (ns):            -0.573
+
+Path 2
+  From:                  timerWrapper_0/timer_0/gpioint:CLK
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[5]
+  Delay (ns):            2.615
+  Slack (ns):            16.255
+  Arrival (ns):          9.315
+  Required (ns):         25.570
+  Setup (ns):            -0.600
+
+
+Expanded Path 1
+  From: timerWrapper_0/timer_0/fireint:CLK
+  To: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[8]
+  data required time                             25.543
+  data arrival time                          -   9.806
+  slack                                          15.737
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  6.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.655          net: FAB_CLK
+  6.700                        timerWrapper_0/timer_0/fireint:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  7.371                        timerWrapper_0/timer_0/fireint:Q (f)
+               +     2.245          net: timerWrapper_0_FIRE_INT_W
+  9.616                        ps2_MSS_0/MSS_ADLIB_INST/U_28:PIN5 (f)
+               +     0.190          cell: ADLIB:MSS_IF
+  9.806                        ps2_MSS_0/MSS_ADLIB_INST/U_28:PIN5INT (f)
+               +     0.000          net: ps2_MSS_0/MSS_ADLIB_INST/GPI[8]INT_NET
+  9.806                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[8] (f)
+                                    
+  9.806                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_pclk1
+               +     0.000          Clock source
+  20.000                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:PCLK1 (r)
+               +     4.970          Clock generation
+  24.970
+               -    -0.573          Library setup time: ADLIB:MSS_APB_IP
+  25.543                       ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GPI[8]
+                                    
+  25.543                       data required time
+
+
+END SET mss_ccc_gla1 to mss_pclk1
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla1
+
+SET Register to Register
+
+Path 1
+  From:                  pwm_v_0/count[1]:CLK
+  To:                    pwm_v_0/count[19]:D
+  Delay (ns):            15.167
+  Slack (ns):            4.299
+  Arrival (ns):          21.865
+  Required (ns):         26.164
+  Setup (ns):            0.522
+  Minimum Period (ns):   15.701
+
+Path 2
+  From:                  pwm_v_0/count[0]:CLK
+  To:                    pwm_v_0/count[19]:D
+  Delay (ns):            15.039
+  Slack (ns):            4.427
+  Arrival (ns):          21.737
+  Required (ns):         26.164
+  Setup (ns):            0.522
+  Minimum Period (ns):   15.573
+
+Path 3
+  From:                  delayWrapper_0/timer_0/counterReg[0]:CLK
+  To:                    delayWrapper_0/timer_0/counterReg[24]:D
+  Delay (ns):            14.977
+  Slack (ns):            4.494
+  Arrival (ns):          21.677
+  Required (ns):         26.171
+  Setup (ns):            0.522
+  Minimum Period (ns):   15.506
+
+Path 4
+  From:                  pwm_h_0/count[1]:CLK
+  To:                    pwm_h_0/count[19]:D
+  Delay (ns):            14.909
+  Slack (ns):            4.570
+  Arrival (ns):          21.593
+  Required (ns):         26.163
+  Setup (ns):            0.522
+  Minimum Period (ns):   15.430
+
+Path 5
+  From:                  pwm_v_0/count[1]:CLK
+  To:                    pwm_v_0/count[18]:D
+  Delay (ns):            14.846
+  Slack (ns):            4.604
+  Arrival (ns):          21.544
+  Required (ns):         26.148
+  Setup (ns):            0.522
+  Minimum Period (ns):   15.396
+
+
+Expanded Path 1
+  From: pwm_v_0/count[1]:CLK
+  To: pwm_v_0/count[19]:D
+  data required time                             26.164
+  data arrival time                          -   21.865
+  slack                                          4.299
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  6.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.653          net: FAB_CLK
+  6.698                        pwm_v_0/count[1]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  7.369                        pwm_v_0/count[1]:Q (f)
+               +     0.387          net: pwm_v_0/count[1]
+  7.756                        pwm_v_0/count_RNIFIHP[0]:B (f)
+               +     0.574          cell: ADLIB:NOR2B
+  8.330                        pwm_v_0/count_RNIFIHP[0]:Y (f)
+               +     0.372          net: pwm_v_0/count_c1
+  8.702                        pwm_v_0/count_RNI8DA61[2]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  9.053                        pwm_v_0/count_RNI8DA61[2]:Y (f)
+               +     0.372          net: pwm_v_0/count_c2
+  9.425                        pwm_v_0/count_RNI293J1[3]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  9.776                        pwm_v_0/count_RNI293J1[3]:Y (f)
+               +     0.372          net: pwm_v_0/count_c3
+  10.148                       pwm_v_0/count_RNIT5SV1[4]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  10.499                       pwm_v_0/count_RNIT5SV1[4]:Y (f)
+               +     0.355          net: pwm_v_0/count_c4
+  10.854                       pwm_v_0/count_RNIP3LC2[5]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  11.205                       pwm_v_0/count_RNIP3LC2[5]:Y (f)
+               +     0.355          net: pwm_v_0/count_c5
+  11.560                       pwm_v_0/count_RNIM2EP2[6]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  11.911                       pwm_v_0/count_RNIM2EP2[6]:Y (f)
+               +     0.355          net: pwm_v_0/count_c6
+  12.266                       pwm_v_0/count_RNIK2763[7]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  12.617                       pwm_v_0/count_RNIK2763[7]:Y (f)
+               +     0.355          net: pwm_v_0/count_c7
+  12.972                       pwm_v_0/count_RNIJ30J3[8]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  13.323                       pwm_v_0/count_RNIJ30J3[8]:Y (f)
+               +     0.975          net: pwm_v_0/count_c8
+  14.298                       pwm_v_0/count_RNIJ5PV3[9]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  14.649                       pwm_v_0/count_RNIJ5PV3[9]:Y (f)
+               +     0.355          net: pwm_v_0/count_c9
+  15.004                       pwm_v_0/count_RNIRBA54[10]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  15.355                       pwm_v_0/count_RNIRBA54[10]:Y (f)
+               +     0.355          net: pwm_v_0/count_c10
+  15.710                       pwm_v_0/count_RNI4JRA4[11]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  16.061                       pwm_v_0/count_RNI4JRA4[11]:Y (f)
+               +     0.355          net: pwm_v_0/count_c11
+  16.416                       pwm_v_0/count_RNIERCG4[12]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  16.767                       pwm_v_0/count_RNIERCG4[12]:Y (f)
+               +     0.355          net: pwm_v_0/count_c12
+  17.122                       pwm_v_0/count_RNIP4UL4[13]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  17.473                       pwm_v_0/count_RNIP4UL4[13]:Y (f)
+               +     0.355          net: pwm_v_0/count_c13
+  17.828                       pwm_v_0/count_RNI5FFR4[14]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  18.179                       pwm_v_0/count_RNI5FFR4[14]:Y (f)
+               +     0.355          net: pwm_v_0/count_c14
+  18.534                       pwm_v_0/count_RNIIQ015[15]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  18.885                       pwm_v_0/count_RNIIQ015[15]:Y (f)
+               +     0.355          net: pwm_v_0/count_c15
+  19.240                       pwm_v_0/count_RNI07I65[16]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  19.591                       pwm_v_0/count_RNI07I65[16]:Y (f)
+               +     0.355          net: pwm_v_0/count_c16
+  19.946                       pwm_v_0/count_RNIFK3C5[17]:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  20.297                       pwm_v_0/count_RNIFK3C5[17]:Y (f)
+               +     0.369          net: pwm_v_0/count_c17
+  20.666                       pwm_v_0/count_RNO[19]:A (f)
+               +     0.903          cell: ADLIB:AX1C
+  21.569                       pwm_v_0/count_RNO[19]:Y (f)
+               +     0.296          net: pwm_v_0/count_n19
+  21.865                       pwm_v_0/count[19]:D (f)
+                                    
+  21.865                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_ccc_gla1
+               +     0.000          Clock source
+  20.000                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  26.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  26.045                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  26.045                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.641          net: FAB_CLK
+  26.686                       pwm_v_0/count[19]:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1
+  26.164                       pwm_v_0/count[19]:D
+                                    
+  26.164                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  LED_RG_0/rg_data:CLK
+  To:                    led_out
+  Delay (ns):            7.304
+  Slack (ns):
+  Arrival (ns):          13.983
+  Required (ns):
+  Clock to Out (ns):     13.983
+
+Path 2
+  From:                  motor_right_0/motor_right_out:CLK
+  To:                    motor_right_out
+  Delay (ns):            6.243
+  Slack (ns):
+  Arrival (ns):          12.936
+  Required (ns):
+  Clock to Out (ns):     12.936
+
+Path 3
+  From:                  motor_left_0/motor_left_out:CLK
+  To:                    motor_left_out
+  Delay (ns):            6.216
+  Slack (ns):
+  Arrival (ns):          12.907
+  Required (ns):
+  Clock to Out (ns):     12.907
+
+Path 4
+  From:                  pwm_v_0/pwm_v_out:CLK
+  To:                    pwm_v_out
+  Delay (ns):            5.932
+  Slack (ns):
+  Arrival (ns):          12.608
+  Required (ns):
+  Clock to Out (ns):     12.608
+
+Path 5
+  From:                  fire_0/fire_out:CLK
+  To:                    fire_out
+  Delay (ns):            4.904
+  Slack (ns):
+  Arrival (ns):          11.613
+  Required (ns):
+  Clock to Out (ns):     11.613
+
+
+Expanded Path 1
+  From: LED_RG_0/rg_data:CLK
+  To: led_out
+  data required time                             N/C
+  data arrival time                          -   13.983
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  6.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  6.045                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.634          net: FAB_CLK
+  6.679                        LED_RG_0/rg_data:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  7.350                        LED_RG_0/rg_data:Q (f)
+               +     2.852          net: led_out_c
+  10.202                       led_out_pad/U0/U1:D (f)
+               +     0.530          cell: ADLIB:IOTRI_OB_EB
+  10.732                       led_out_pad/U0/U1:DOUT (f)
+               +     0.000          net: led_out_pad/U0/NET1
+  10.732                       led_out_pad/U0/U0:D (f)
+               +     3.251          cell: ADLIB:IOPAD_TRI
+  13.983                       led_out_pad/U0/U0:PAD (f)
+               +     0.000          net: led_out
+  13.983                       led_out (f)
+                                    
+  13.983                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  N/C
+                                    
+  N/C                          led_out (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET mss_ccc_gla0 to mss_ccc_gla1
+
+Path 1
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+  To:                    timerWrapper_0/timer_0/fireint:D
+  Delay (ns):            13.014
+  Slack (ns):            8.194
+  Arrival (ns):          17.984
+  Required (ns):         26.178
+  Setup (ns):            0.522
+
+Path 2
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+  To:                    motor_left_0/count[3]:D
+  Delay (ns):            12.752
+  Slack (ns):            8.497
+  Arrival (ns):          17.722
+  Required (ns):         26.219
+  Setup (ns):            0.490
+
+Path 3
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+  To:                    delayWrapper_0/timer_0/counterReg[31]:D
+  Delay (ns):            12.638
+  Slack (ns):            8.570
+  Arrival (ns):          17.608
+  Required (ns):         26.178
+  Setup (ns):            0.522
+
+Path 4
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+  To:                    delayWrapper_0/timer_0/counterReg[7]:D
+  Delay (ns):            12.494
+  Slack (ns):            8.689
+  Arrival (ns):          17.464
+  Required (ns):         26.153
+  Setup (ns):            0.522
+
+Path 5
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+  To:                    delayWrapper_0/timer_0/counterReg[3]:D
+  Delay (ns):            12.498
+  Slack (ns):            8.727
+  Arrival (ns):          17.468
+  Required (ns):         26.195
+  Setup (ns):            0.522
+
+
+Expanded Path 1
+  From: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+  To: timerWrapper_0/timer_0/fireint:D
+  data required time                             26.178
+  data arrival time                          -   17.984
+  slack                                          8.194
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla0
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLAMSS (r)
+               +     4.340          Clock generation
+  4.340
+               +     0.630          net: ps2_MSS_0/GLA0
+  4.970                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK (r)
+               +     3.632          cell: ADLIB:MSS_APB_IP
+  8.602                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:M2FRESETn (r)
+               +     0.122          net: ps2_MSS_0/MSS_ADLIB_INST/M2FRESETnINT_NET
+  8.724                        ps2_MSS_0/MSS_ADLIB_INST/U_46:PIN2INT (r)
+               +     0.095          cell: ADLIB:MSS_IF
+  8.819                        ps2_MSS_0/MSS_ADLIB_INST/U_46:PIN2 (r)
+               +     2.538          net: ps2_MSS_0/MSS_ADLIB_INST_M2FRESETn
+  11.357                       ps2_MSS_0/MSS_ADLIB_INST_RNIFUVD/U_CLKSRC:A (r)
+               +     0.699          cell: ADLIB:CLKSRC
+  12.056                       ps2_MSS_0/MSS_ADLIB_INST_RNIFUVD/U_CLKSRC:Y (r)
+               +     0.606          net: ps2_MSS_0_M2F_RESET_N
+  12.662                       timerWrapper_0/timer_0/fireint_RNO_39:A (r)
+               +     0.470          cell: ADLIB:NOR2A
+  13.132                       timerWrapper_0/timer_0/fireint_RNO_39:Y (r)
+               +     0.322          net: timerWrapper_0/timer_0/fireint_0_0
+  13.454                       timerWrapper_0/timer_0/fireint_RNO_31:B (r)
+               +     0.652          cell: ADLIB:NOR3B
+  14.106                       timerWrapper_0/timer_0/fireint_RNO_31:Y (r)
+               +     0.334          net: timerWrapper_0/timer_0/fireint_0_17
+  14.440                       timerWrapper_0/timer_0/fireint_RNO_12:C (r)
+               +     0.606          cell: ADLIB:NOR3C
+  15.046                       timerWrapper_0/timer_0/fireint_RNO_12:Y (r)
+               +     0.334          net: timerWrapper_0/timer_0/fireint_0_25
+  15.380                       timerWrapper_0/timer_0/fireint_RNO_3:C (r)
+               +     0.606          cell: ADLIB:NOR3C
+  15.986                       timerWrapper_0/timer_0/fireint_RNO_3:Y (r)
+               +     0.334          net: timerWrapper_0/timer_0/fireint_0_29
+  16.320                       timerWrapper_0/timer_0/fireint_RNO_0:C (r)
+               +     0.606          cell: ADLIB:NOR3C
+  16.926                       timerWrapper_0/timer_0/fireint_RNO_0:Y (r)
+               +     0.317          net: timerWrapper_0/timer_0/fireint_0_31
+  17.243                       timerWrapper_0/timer_0/fireint_RNO:A (r)
+               +     0.445          cell: ADLIB:NOR2B
+  17.688                       timerWrapper_0/timer_0/fireint_RNO:Y (r)
+               +     0.296          net: timerWrapper_0/timer_0/fireint_RNO
+  17.984                       timerWrapper_0/timer_0/fireint:D (r)
+                                    
+  17.984                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_ccc_gla1
+               +     0.000          Clock source
+  20.000                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  26.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  26.045                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  26.045                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.655          net: FAB_CLK
+  26.700                       timerWrapper_0/timer_0/fireint:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1
+  26.178                       timerWrapper_0/timer_0/fireint:D
+                                    
+  26.178                       data required time
+
+
+END SET mss_ccc_gla0 to mss_ccc_gla1
+
+----------------------------------------------------
+
+SET mss_fabric_interface_clock to mss_ccc_gla1
+
+Path 1
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    delayWrapper_0/timer_0/overflowReg[6]:D
+  Delay (ns):            14.648
+  Slack (ns):            6.584
+  Arrival (ns):          19.618
+  Required (ns):         26.202
+  Setup (ns):            0.522
+
+Path 2
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    delayWrapper_0/timer_0/overflowReg[30]:D
+  Delay (ns):            14.431
+  Slack (ns):            6.740
+  Arrival (ns):          19.401
+  Required (ns):         26.141
+  Setup (ns):            0.522
+
+Path 3
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    delayWrapper_0/timer_0/overflowReg[9]:D
+  Delay (ns):            14.385
+  Slack (ns):            6.786
+  Arrival (ns):          19.355
+  Required (ns):         26.141
+  Setup (ns):            0.522
+
+Path 4
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    timerWrapper_0/timer_0/overflowReg[26]:D
+  Delay (ns):            14.208
+  Slack (ns):            6.951
+  Arrival (ns):          19.178
+  Required (ns):         26.129
+  Setup (ns):            0.522
+
+Path 5
+  From:                  ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To:                    delayWrapper_0/timer_0/overflowReg[31]:D
+  Delay (ns):            14.182
+  Slack (ns):            6.989
+  Arrival (ns):          19.152
+  Required (ns):         26.141
+  Setup (ns):            0.522
+
+
+Expanded Path 1
+  From: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB
+  To: delayWrapper_0/timer_0/overflowReg[6]:D
+  data required time                             26.202
+  data arrival time                          -   19.618
+  slack                                          6.584
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_fabric_interface_clock
+               +     0.000          Clock source
+  0.000                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:GLB (r)
+               +     4.970          Clock generation
+  4.970
+               +     3.591          cell: ADLIB:MSS_APB_IP
+  8.561                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSPADDR[3] (f)
+               +     0.157          net: ps2_MSS_0/MSS_ADLIB_INST/MSSPADDR[3]INT_NET
+  8.718                        ps2_MSS_0/MSS_ADLIB_INST/U_31:PIN1INT (f)
+               +     0.088          cell: ADLIB:MSS_IF
+  8.806                        ps2_MSS_0/MSS_ADLIB_INST/U_31:PIN1 (f)
+               +     3.172          net: ps2_MSS_0/MSS_ADLIB_INST_MSSPADDR[3]
+  11.978                       ps2_MSS_0/MSS_ADLIB_INST_RNIFUVD_1/U_CLKSRC:A (f)
+               +     0.719          cell: ADLIB:CLKSRC
+  12.697                       ps2_MSS_0/MSS_ADLIB_INST_RNIFUVD_1/U_CLKSRC:Y (f)
+               +     0.618          net: CoreAPB3_0_APBmslave0_PADDR[3]
+  13.315                       delayWrapper_0/timer_0/bus_read_data_7_i_a4_1_0[20]:B (f)
+               +     0.588          cell: ADLIB:NOR2
+  13.903                       delayWrapper_0/timer_0/bus_read_data_7_i_a4_1_0[20]:Y (r)
+               +     1.415          net: timerWrapper_0_timer_0_overflowReset_0_sqmuxa_1
+  15.318                       delayWrapper_0/timer_0/overflowReset_0_sqmuxa:C (r)
+               +     0.606          cell: ADLIB:NOR3C
+  15.924                       delayWrapper_0/timer_0/overflowReset_0_sqmuxa:Y (r)
+               +     2.318          net: delayWrapper_0/timer_0/overflowReset_0_sqmuxa
+  18.242                       delayWrapper_0/timer_0/overflowReg_RNO_0[6]:S (r)
+               +     0.332          cell: ADLIB:MX2
+  18.574                       delayWrapper_0/timer_0/overflowReg_RNO_0[6]:Y (r)
+               +     0.294          net: delayWrapper_0/timer_0/N_260
+  18.868                       delayWrapper_0/timer_0/overflowReg_RNO[6]:A (r)
+               +     0.445          cell: ADLIB:NOR2B
+  19.313                       delayWrapper_0/timer_0/overflowReg_RNO[6]:Y (r)
+               +     0.305          net: delayWrapper_0/timer_0/overflowReg_RNO[6]
+  19.618                       delayWrapper_0/timer_0/overflowReg[6]:D (r)
+                                    
+  19.618                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_ccc_gla1
+               +     0.000          Clock source
+  20.000                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  26.045
+               +     0.000          net: ps2_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  26.045                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  26.045                       ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.679          net: FAB_CLK
+  26.724                       delayWrapper_0/timer_0/overflowReg[6]:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1
+  26.202                       delayWrapper_0/timer_0/overflowReg[6]:D
+                                    
+  26.202                       data required time
+
+
+END SET mss_fabric_interface_clock to mss_ccc_gla1
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla0
+
+Info: The maximum frequency of this clock domain is limited by the period of pin ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                  MSS_RESET_N
+  To:                    ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+  Delay (ns):            0.937
+  Slack (ns):
+  Arrival (ns):          0.937
+  Required (ns):
+  Setup (ns):            -2.196
+  External Setup (ns):   -6.229
+
+
+Expanded Path 1
+  From: MSS_RESET_N
+  To: ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+  data required time                             N/C
+  data arrival time                          -   0.937
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        MSS_RESET_N (r)
+               +     0.000          net: MSS_RESET_N
+  0.000                        ps2_MSS_0/MSS_RESET_0_MSS_RESET_N:PAD (r)
+               +     0.937          cell: ADLIB:IOPAD_IN
+  0.937                        ps2_MSS_0/MSS_RESET_0_MSS_RESET_N:Y (r)
+               +     0.000          net: ps2_MSS_0/MSS_RESET_0_MSS_RESET_N_Y
+  0.937                        ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn (r)
+                                    
+  0.937                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla0
+               +     0.000          Clock source
+  N/C                          ps2_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLAMSS (r)
+               +     4.340          Clock generation
+  N/C
+               +     0.630          net: ps2_MSS_0/GLA0
+  N/C                          ps2_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK (r)
+               -    -2.196          Library setup time: ADLIB:MSS_APB_IP
+  N/C                          ps2_MSS_0/MSS_ADLIB_INST/U_CORE:MSSRESETn
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain ps2_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

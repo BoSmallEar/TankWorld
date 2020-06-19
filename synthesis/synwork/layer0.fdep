@@ -1,0 +1,106 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\synthesis\\synwork\\ps2_comp.srs|-top|ps2|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509358336
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v":1509027488
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509029528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1509029528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1509029528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1509029528
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\LED_RG.v":1555957745
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\delayWrapper.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\fire.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\motor_left.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\motor_right.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1536348874
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\work\\ps2_MSS\\mss_tshell.v":1555892273
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\work\\ps2_MSS\\MSS_CCC_0\\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v":1555892271
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\work\\ps2_MSS\\ps2_MSS.v":1555892274
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\pwm_h.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\pwm_v.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\hdl\\timerWrapper.v":1555794818
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1537903184
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1537903184
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3.v":1537903184
+#CUR:"C:\\Users\\jimzhang\\Documents\\ps2try\\ps2try\\component\\work\\ps2\\ps2.v":1555957759
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\LED_RG.v" verilog
+1			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\delayWrapper.v" verilog
+2			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\fire.v" verilog
+3			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_left.v" verilog
+4			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\motor_right.v" verilog
+5			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
+6			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\mss_tshell.v" verilog
+7			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\MSS_CCC_0\ps2_MSS_tmp_MSS_CCC_0_MSS_CCC.v" verilog
+8			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2_MSS\ps2_MSS.v" verilog
+9			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_h.v" verilog
+10			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\pwm_v.v" verilog
+11			"C:\Users\jimzhang\Documents\ps2try\ps2try\hdl\timerWrapper.v" verilog
+12			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+13			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+14			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" verilog
+15			"C:\Users\jimzhang\Documents\ps2try\ps2try\component\work\ps2\ps2.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 5
+8 7 6 5
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 12 13
+15 14 1 2 0 3 4 8 9 10 11
+#Dependency Lists(Users Of)
+0 15
+1 15
+2 15
+3 15
+4 15
+5 7 8
+6 8
+7 8
+8 15
+9 15
+10 15
+11 15
+12 14
+13 14
+14 15
+15 -1
+#Design Unit to File Association
+module work LED_RG 0
+module work timer_delay 1
+module work delayWrapper 1
+module work fire 2
+module work motor_left 3
+module work motor_right 4
+module work MSS_XTLOSC 5
+module work MSS_LPXTLOSC 5
+module work INBUF_MSS 5
+module work OUTBUF_MSS 5
+module work TRIBUFF_MSS 5
+module work BIBUF_MSS 5
+module work BIBUF_OPEND_MSS 5
+module work INBUF_MCCC 5
+module work INBUF_LVPECL_MCCC 5
+module work INBUF_LVDS_MCCC 5
+module work MSSINT 5
+module work MSS_CCC 5
+module work MSS_ALL 5
+module work MSS_APB 6
+module work ps2_MSS_tmp_MSS_CCC_0_MSS_CCC 7
+module work ps2_MSS 8
+module work pwm_h 9
+module work pwm_v 10
+module work timer 11
+module work timerWrapper 11
+module work ps2 15
+module COREAPB3_LIB COREAPB3_MUXPTOB3 12
+module COREAPB3_LIB coreapb3_iaddr_reg 13
+module COREAPB3_LIB CoreAPB3 14

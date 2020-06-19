@@ -1,0 +1,26 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\jimzhang\documents\ps2try\ps2try\component\work\ps2_mss\mss_ccc_0\ps2_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.ps2_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\delaywrapper.v":87:0:87:5|Found counter in view:work.timer_delay(verilog) instance counterReg[31:0] 
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\fire.v":46:0:46:5|Found counter in view:work.fire_1316s_658s(verilog) instance count[10:0] 
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\led_rg.v":59:0:59:5|Found counter in view:work.LED_RG_1499s_61s_2500s(verilog) instance clk_div_2[10:0] 
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\led_rg.v":59:0:59:5|Found counter in view:work.LED_RG_1499s_61s_2500s(verilog) instance clk_div_1[10:0] 
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_left.v":45:0:45:5|Found counter in view:work.motor_left(verilog) instance count[16:0] 
+@N: MF179 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_left.v":55:8:55:26|Found 32 by 32 bit less-than operator ('<') motor_left_out4 (in view: work.motor_left(verilog))
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_right.v":45:0:45:5|Found counter in view:work.motor_right(verilog) instance count[16:0] 
+@N: MF179 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\motor_right.v":55:8:55:26|Found 32 by 32 bit less-than operator ('<') motor_right_out4 (in view: work.motor_right(verilog))
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_h.v":45:0:45:5|Found counter in view:work.pwm_h(verilog) instance count[19:0] 
+@N: MF179 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_h.v":55:8:55:26|Found 32 by 32 bit less-than operator ('<') pwm_h_out4 (in view: work.pwm_h(verilog))
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_v.v":45:0:45:5|Found counter in view:work.pwm_v(verilog) instance count[19:0] 
+@N: MF179 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\pwm_v.v":55:8:55:26|Found 32 by 32 bit less-than operator ('<') pwm_v_out4 (in view: work.pwm_v(verilog))
+@N: MO231 :"c:\users\jimzhang\documents\ps2try\ps2try\hdl\timerwrapper.v":91:0:91:5|Found counter in view:work.timer(verilog) instance counterReg[31:0] 
+@N: FP130 |Promoting Net ps2_MSS_0_M2F_RESET_N on CLKINT  I_105 
+@N: FP130 |Promoting Net CoreAPB3_0_APBmslave0_PADDR[3] on CLKINT  I_106 
+@N: FP130 |Promoting Net CoreAPB3_0_APBmslave0_PADDR[2] on CLKINT  I_107 
+@N: MT615 |Found clock FCLK with period 20.00ns 
+@N: MT615 |Found clock FAB_CLK with period 20.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
